@@ -1,8 +1,0 @@
-uuid: cd552547-aeb4-485f-8548-94b3fb51079e
-langcode: ru
-status: true
-dependencies: {  }
-name: Местность
-vid: locality
-description: ''
-weight: 0

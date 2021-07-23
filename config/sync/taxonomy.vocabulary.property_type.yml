@@ -1,8 +1,0 @@
-uuid: c7d175d9-1f3b-4832-86c1-91f5ccff56c7
-langcode: ru
-status: true
-dependencies: {  }
-name: 'Тип недвижимости'
-vid: property_type
-description: ''
-weight: 0

@@ -1,22 +1,12 @@
-uuid: 560e7331-5469-496b-8213-ac54cc84ba0a
-langcode: ru
+uuid: 1e6ad1f8-a5d2-4ea9-b2d6-fa7f9c0e3151
+langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_department
-    - field.field.user.user.field_email
-    - field.field.user.user.field_image
-    - field.field.user.user.field_name
-    - field.field.user.user.field_phone
-    - field.field.user.user.field_position
-    - field.field.user.user.field_skype
-    - field.field.user.user.field_user_priority
-    - field.field.user.user.field_viber
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
-    - path
     - user
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
@@ -26,93 +16,23 @@ bundle: user
 mode: default
 content:
   account:
+    weight: -10
+    region: content
+  contact:
+    weight: 5
+    region: content
+  language:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_department:
-    weight: 3
-    type: options_select
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  field_email:
+  timezone:
     weight: 6
-    type: email_default
-    settings:
-      placeholder: ''
-      size: 60
-    third_party_settings: {  }
     region: content
-  field_image:
+  user_picture:
     type: image_image
-    weight: 9
-    region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_name:
-    weight: 2
-    type: string_textfield
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
+    weight: -1
     region: content
-  field_phone:
-    weight: 5
-    type: string_textfield
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
-  field_position:
-    weight: 4
-    type: string_textfield
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
-  field_skype:
-    weight: 7
-    type: string_textfield
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
-  field_user_priority:
-    weight: 11
-    type: number
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
-  field_viber:
-    weight: 8
-    type: string_textfield
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
-  google_analytics:
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden:
-  contact: true
-  langcode: true
-  language: true
-  timezone: true
-  user_picture: true
+hidden: {  }

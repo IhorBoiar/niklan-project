@@ -1,8 +1,0 @@
-uuid: 733a5723-896c-49ae-8a90-31694882a4c6
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_page
-label: 'Страница comment'
-target_entity_type_id: node
-description: null

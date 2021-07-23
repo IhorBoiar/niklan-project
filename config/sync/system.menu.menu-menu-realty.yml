@@ -1,8 +1,0 @@
-uuid: 6acc41dd-3d49-41b1-beac-fad149b6de9b
-langcode: en
-status: true
-dependencies: {  }
-id: menu-menu-realty
-label: Недвижимость
-description: ''
-locked: false

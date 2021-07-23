@@ -1,5 +1,5 @@
-uuid: 5b9f579c-922a-46e9-a808-662f555399cb
-langcode: ru
+uuid: a5877ea8-3936-4cbe-bbc7-ef9093a59b82
+langcode: en
 status: false
 dependencies:
   config:
@@ -8,11 +8,11 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: Z1Lg95xnf11BTHIugkzple_pdxZdECiqLRcrLVo3bcw
+  default_config_hash: _TuOQPG7BoDmbu8Qdrik_4uMn7IcbwPVpSh9IOV2IDg
 id: glossary
-label: Глоссарий
+label: Glossary
 module: node
-description: 'Все материалы, по алфавиту.'
+description: 'All content, by letter.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -175,7 +175,7 @@ display:
           id: changed
           table: node_field_data
           field: changed
-          label: 'Последнее обновление'
+          label: 'Last update'
           type: timestamp
           settings:
             date_format: long
@@ -310,6 +310,19 @@ display:
       empty: {  }
       sorts: {  }
       filters:
+        status:
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          field: status
+          group: 1
+          id: status
+          table: node_field_data
+          value: '1'
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
         langcode:
           id: langcode
           table: node_field_data
@@ -365,7 +378,7 @@ display:
       tags: {  }
   attachment_1:
     id: attachment_1
-    display_title: Вложение
+    display_title: Attachment
     display_plugin: attachment
     position: 2
     display_options:
@@ -443,7 +456,7 @@ display:
       path: glossary
       menu:
         type: normal
-        title: Глоссарий
+        title: Glossary
         weight: 0
         menu_name: main
         parent: ''

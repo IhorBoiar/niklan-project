@@ -1,8 +1,0 @@
-uuid: 55c2c523-b53b-422d-9def-003c684c1dfc
-langcode: en
-status: true
-dependencies: {  }
-id: menu-socials
-label: 'Социальные сети'
-description: ''
-locked: false

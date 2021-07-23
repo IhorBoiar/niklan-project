@@ -1,5 +1,5 @@
-uuid: 82a55c7c-7674-4220-a16c-6fd7257fc02d
-langcode: ru
+uuid: 73936aea-7dd3-4c12-9921-a86482ac5afd
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
 id: node_unpublish_action
-label: 'Снять материал с публикации'
+label: 'Unpublish content'
 type: node
 plugin: 'entity:unpublish_action:node'
 configuration: {  }

@@ -1,8 +1,0 @@
-uuid: 4b608643-b593-49ae-a88f-efc9a6a0b5aa
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_abroad
-label: 'Недвижимость за рубежом comment'
-target_entity_type_id: node
-description: null

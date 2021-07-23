@@ -1,8 +1,0 @@
-uuid: e211c3c1-23f9-442a-82ab-8ee5143a6145
-langcode: ru
-status: true
-dependencies: {  }
-name: Комнатность
-vid: roominess_taxonomy
-description: ''
-weight: 0

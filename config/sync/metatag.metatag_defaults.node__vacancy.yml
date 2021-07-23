@@ -1,9 +1,0 @@
-uuid: 0238484f-d5e9-4b8e-a22f-55ebe16d67d4
-langcode: uk
-status: true
-dependencies: {  }
-id: node__vacancy
-label: 'Вміст: Вакансия'
-tags:
-  description: '【[node:title]】 Агентство недвижимости Маяк ⭐ Наши услуги - Покупка, продажа, аренда: ✅ Квартиры ✅ Дома ✅ Земельные участки ✅ Коммерческая недвижимость'
-  title: '≡ [node:title] 》 Агентство недвижимости Маяк в г. Киев'

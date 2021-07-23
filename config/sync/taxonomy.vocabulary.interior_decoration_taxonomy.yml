@@ -1,8 +1,0 @@
-uuid: 84942ca1-7a61-4a26-bc83-243d9bed6348
-langcode: ru
-status: true
-dependencies: {  }
-name: 'Внутренняя отделка'
-vid: interior_decoration_taxonomy
-description: 'Тип отделки для ЖК'
-weight: 0

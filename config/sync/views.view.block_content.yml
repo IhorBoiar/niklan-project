@@ -1,5 +1,5 @@
-uuid: 841e704a-7665-4b68-9aa7-6bbbdcbda798
-langcode: ru
+uuid: f97416cc-cd05-4126-909a-e4681c7225c3
+langcode: en
 status: true
 dependencies:
   module:
@@ -8,9 +8,9 @@ dependencies:
 _core:
   default_config_hash: 2J0rd5cWfFsdSX-kAb0f9EzvC0_vn4NxGlUpOQAXeOU
 id: block_content
-label: 'Пользовательские блоки'
+label: 'Custom block library'
 module: views
-description: 'Поиск и управление пользовательскими блоками.'
+description: 'Find and manage custom blocks.'
 tag: default
 base_table: block_content_field_data
 base_field: id
@@ -54,8 +54,8 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ Предыдущий'
-            next: 'Следующий ›'
+            previous: '‹ Previous'
+            next: 'Next ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -121,7 +121,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Описание блока'
+          label: 'Block description'
           exclude: false
           alter:
             alter_text: false
@@ -186,7 +186,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Тип блока'
+          label: 'Block type'
           exclude: false
           alter:
             alter_text: false
@@ -365,7 +365,7 @@ display:
           exposed: true
           expose:
             operator_id: info_op
-            label: 'Описание блока'
+            label: 'Block description'
             description: ''
             use_operator: false
             operator: info_op
@@ -407,7 +407,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Тип блока'
+            label: 'Block type'
             description: ''
             use_operator: false
             operator: type_op
@@ -478,7 +478,7 @@ display:
           entity_field: reusable
           plugin_id: boolean
       sorts: {  }
-      title: 'Пользовательские блоки'
+      title: 'Custom block library'
       header: {  }
       footer: {  }
       empty:
@@ -491,7 +491,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Нет доступных пользовательских блоков.'
+          content: 'There are no custom blocks available.'
           plugin_id: text_custom
         block_content_listing_empty:
           admin_label: ''
@@ -526,7 +526,7 @@ display:
       path: admin/structure/block/block-content
       menu:
         type: tab
-        title: 'Пользовательские блоки'
+        title: 'Custom block library'
         description: ''
         parent: block.admin_display
         weight: 0

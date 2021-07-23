@@ -1,5 +1,5 @@
-uuid: cbd0ed0a-c68a-4f89-af7a-d8a2683d6e21
-langcode: ru
+uuid: 99242889-62b7-458f-b8a0-838de4b7fe63
+langcode: en
 status: true
 dependencies:
   theme:
@@ -9,12 +9,12 @@ _core:
 id: seven_local_actions
 theme: seven
 region: content
-weight: -4
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Основные действия администратора'
+  label: 'Primary admin actions'
   provider: core
   label_display: '0'
 visibility: {  }

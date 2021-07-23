@@ -1,5 +1,5 @@
-uuid: 8edc3b77-894f-4587-9fb1-4082c5baab1e
-langcode: ru
+uuid: 241c5f0f-c941-42c6-8ff2-a2c1c5d60339
+langcode: en
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
 id: user.full
-label: Full
+label: 'User account'
 targetEntityType: user
 cache: true

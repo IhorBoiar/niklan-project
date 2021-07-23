@@ -1,8 +1,0 @@
-uuid: 30875600-9d7a-4377-a379-4806b548d436
-langcode: ru
-status: true
-dependencies: {  }
-name: 'Класс жилья'
-vid: class_taxonomy
-description: 'Выбор класса жилья для ЖК'
-weight: 0

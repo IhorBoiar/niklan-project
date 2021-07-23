@@ -1,8 +1,0 @@
-uuid: 3591ba3f-f1e4-43ae-9c3f-103c5b960322
-langcode: ru
-status: true
-dependencies: {  }
-name: 'Ввод в эксплуатацию'
-vid: expluatation_taxonomy
-description: ''
-weight: 0

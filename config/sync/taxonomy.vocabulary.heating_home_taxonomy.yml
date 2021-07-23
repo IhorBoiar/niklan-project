@@ -1,8 +1,0 @@
-uuid: 8d972fab-fdc7-4d3d-be26-6f35adf72894
-langcode: ru
-status: true
-dependencies: {  }
-name: Отопление
-vid: heating_home_taxonomy
-description: 'Тип отопления для ЖК'
-weight: 0

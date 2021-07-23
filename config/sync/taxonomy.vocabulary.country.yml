@@ -1,8 +1,0 @@
-uuid: 3d50181e-04bb-41a8-b7ca-c94f408ee107
-langcode: ru
-status: true
-dependencies: {  }
-name: Страна
-vid: country
-description: ''
-weight: -9

@@ -1,11 +1,11 @@
-uuid: a202a4e0-3cc8-483e-ab3f-94996fad4345
-langcode: ru
+uuid: a6629d4d-94eb-4498-8e42-90070a01b905
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
 id: personal
-label: 'Персональная контактная форма'
+label: 'Personal contact form'
 recipients: {  }
 reply: ''
 weight: 0

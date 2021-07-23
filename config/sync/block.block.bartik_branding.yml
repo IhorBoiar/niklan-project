@@ -1,5 +1,5 @@
-uuid: 457cd7c9-02d6-4543-94c8-08f27462f1c1
-langcode: ru
+uuid: d1eda2a2-55bf-47be-8440-20d6c35f8a81
+langcode: en
 status: true
 dependencies:
   module:
@@ -10,13 +10,13 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: bartik_branding
 theme: bartik
-region: primary_menu
-weight: -6
+region: header
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Брендинг сайта'
+  label: 'Site branding'
   provider: system
   label_display: '0'
   use_site_logo: true

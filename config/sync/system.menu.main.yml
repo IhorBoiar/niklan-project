@@ -1,10 +1,10 @@
-uuid: b8a734dd-1788-449b-80e0-bbec211afd47
-langcode: ru
+uuid: c601dece-e280-4198-928b-68d7de63d892
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-label: 'Основная навигация'
-description: 'Ссылки разделов сайта'
+label: 'Main navigation'
+description: 'Site section links'
 locked: true

@@ -1,19 +1,11 @@
-uuid: 88b1731b-61c7-4d33-943c-79a6c1317e20
-langcode: ru
+uuid: d8e825e1-7670-485b-aea9-9ee15346da30
+langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.comment_node_page
-    - field.field.node.page.field_header_foto
-    - field.field.node.page.field_image
-    - field.field.node.page.field_metatag
-    - image.style.thumbnail
     - node.type.page
   module:
-    - comment
-    - image
-    - metatag
     - path
     - text
 _core:
@@ -33,39 +25,11 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  comment_node_page:
-    type: comment_default
-    weight: 20
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_header_foto:
-    weight: 1
-    type: image_image
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    region: content
-  field_metatag:
-    weight: 121
-    settings:
-      sidebar: true
-    third_party_settings: {  }
-    type: metatag_firehose
-    region: content
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   path:
     type: path
@@ -112,10 +76,4 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  url_redirects:
-    weight: 50
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-hidden:
-  field_image: true
+hidden: {  }

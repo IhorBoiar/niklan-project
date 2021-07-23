@@ -1,8 +1,0 @@
-uuid: 75c9d261-072a-4d20-88df-4dad455b45ac
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_land
-label: 'Земля comment'
-target_entity_type_id: node
-description: null

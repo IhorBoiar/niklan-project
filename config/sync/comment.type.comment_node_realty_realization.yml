@@ -1,8 +1,0 @@
-uuid: 93c9bd4b-7dfb-467e-bce3-374e88323a04
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_realty_realization
-label: 'Заявка на реализацию недвижимости comment'
-target_entity_type_id: node
-description: null

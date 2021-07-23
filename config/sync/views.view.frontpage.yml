@@ -1,5 +1,5 @@
-uuid: a72c6ca1-9bbd-4d56-bc33-98627c786a52
-langcode: ru
+uuid: 15315d3e-8b0d-45d6-af1d-f679184b6b56
+langcode: en
 status: true
 dependencies:
   config:
@@ -11,9 +11,9 @@ dependencies:
 _core:
   default_config_hash: Xk6puCoRlHSJG8mU9Zg2iN4fbnzaw2dFolwMfpWxDSE
 id: frontpage
-label: 'Главная страница'
+label: Frontpage
 module: node
-description: 'Все материалы, выведенные на главную страницу.'
+description: 'All content promoted to the front page.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -30,7 +30,7 @@ display:
       empty:
         area_text_custom:
           admin_label: ''
-          content: 'Материалов для отображения на главной странице еще не создано.<br>Следуйте <a target="_blank" href="https://www.drupal.org/ru/docs/user_guide/ru/index.html">Руководству Пользователя</a> для начала создания сайта.'
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
           empty: true
           field: area_text_custom
           group_type: group
@@ -60,7 +60,7 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          title: 'Приветствуем на сайте [site:name]'
+          title: 'Welcome to [site:name]'
           plugin_id: title
       exposed_form:
         type: basic
@@ -184,8 +184,8 @@ display:
             offset: false
             offset_label: Offset
           tags:
-            previous: '‹ Предыдущий'
-            next: 'Следующий ›'
+            previous: '‹ Previous'
+            next: 'Next ›'
             first: '« First'
             last: 'Last »'
           quantity: 9
@@ -260,7 +260,7 @@ display:
   feed_1:
     display_plugin: feed
     id: feed_1
-    display_title: 'Поток данных'
+    display_title: Feed
     position: 2
     display_options:
       sitename_title: true

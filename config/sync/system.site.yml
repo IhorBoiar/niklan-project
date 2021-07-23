@@ -1,14 +1,14 @@
-uuid: 1a2e22c7-9d94-46fd-8297-b779b837ab72
-name: 'Агентство недвижимости Маяк – все виды услуг в Киеве'
-mail: info@mayak.kiev.ua
+uuid: d4e0e580-8b0c-4649-947e-1d4eeef5ab8b
+name: 'Test site'
+mail: test@email.com
 slogan: ''
 page:
-  403: /
-  404: /node/16932
-  front: /node/30
+  403: ''
+  404: ''
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: ru
-default_langcode: uk
+langcode: en
+default_langcode: en
 _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,5 +1,5 @@
-uuid: df4ced0f-dc04-4cb6-b8ad-0696bced5351
-langcode: ru
+uuid: 59d5d05e-3018-459d-a3f0-829bf46f2d23
+langcode: en
 status: false
 dependencies:
   config:
@@ -10,9 +10,9 @@ dependencies:
 _core:
   default_config_hash: gA3tLETtsrObWW1Uvb6Mh-fg0Qu_6uCEzgL9jKQgPgo
 id: archive
-label: Архив
+label: Archive
 module: node
-description: 'Все материалы, по месяцам.'
+description: 'All content, by month.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -31,7 +31,7 @@ display:
           distinct: false
           replica: false
           query_tags: {  }
-      title: 'Ежемесячный архив'
+      title: 'Monthly archive'
       access:
         type: perm
         options:

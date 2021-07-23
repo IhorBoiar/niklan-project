@@ -1,8 +1,0 @@
-uuid: 5d72ad29-9b8f-4a6d-bde0-fd597370e5b6
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_news
-label: 'Новости comment'
-target_entity_type_id: node
-description: null

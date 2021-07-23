@@ -1,5 +1,5 @@
-uuid: ebcb7fb0-74de-4b69-ae54-131f11184f28
-langcode: ru
+uuid: 34a08c9d-eef7-4240-8255-c8c4160696ba
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,9 +7,9 @@ dependencies:
 _core:
   default_config_hash: J5EbGNdz0YUaSIYKwomyFSOtZjsV9TrBA3qdb3ZwBS0
 id: user_admin_people
-label: Пользователи
+label: People
 module: user
-description: 'Поиск и управление людьми, взаимодействующих с вашим сайтом.'
+description: 'Find and manage people interacting with your site.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -37,7 +37,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Применить
+          submit_button: Filter
           reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -52,8 +52,8 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Предыдущий'
-            next: 'Следующий ›'
+            previous: '‹ Previous'
+            next: 'Next ›'
             first: '« First'
             last: 'Last »'
           expose:
@@ -198,7 +198,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Имя пользователя'
+          label: Username
           exclude: false
           alter:
             alter_text: false
@@ -250,7 +250,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Статус
+          label: Status
           exclude: false
           alter:
             alter_text: false
@@ -295,8 +295,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Активно
-            format_custom_false: Заблокировано
+            format_custom_true: Active
+            format_custom_false: Blocked
           entity_type: user
           entity_field: status
         roles_target_id:
@@ -306,7 +306,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Роли
+          label: Roles
           exclude: false
           alter:
             alter_text: false
@@ -357,7 +357,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Зарегистрирован на сайте'
+          label: 'Member for'
           exclude: false
           alter:
             alter_text: false
@@ -413,7 +413,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Последнее посещение'
+          label: 'Last access'
           exclude: false
           alter:
             alter_text: false
@@ -591,7 +591,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Имя или email содержит'
+            label: 'Name or email contains'
             description: ''
             use_operator: false
             operator: combine_op
@@ -650,7 +650,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: Статус
+            label: Status
             description: ''
             identifier: status
             optional: true
@@ -661,11 +661,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Активно
+                title: Active
                 operator: '='
                 value: '1'
               2:
-                title: Заблокировано
+                title: Blocked
                 operator: '='
                 value: '0'
           plugin_id: boolean
@@ -684,7 +684,7 @@ display:
           exposed: true
           expose:
             operator_id: roles_target_id_op
-            label: Роль
+            label: Role
             description: ''
             use_operator: false
             operator: roles_target_id_op
@@ -726,7 +726,7 @@ display:
           exposed: true
           expose:
             operator_id: permission_op
-            label: 'Право доступа'
+            label: Permission
             description: ''
             use_operator: false
             operator: permission_op
@@ -853,7 +853,7 @@ display:
           plugin_id: date
           entity_type: user
           entity_field: created
-      title: Пользователи
+      title: People
       empty:
         area_text_custom:
           id: area_text_custom
@@ -864,11 +864,11 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Нет доступных людей.'
+          content: 'No people available.'
           plugin_id: text_custom
       use_more: false
       use_more_always: false
-      use_more_text: ещё
+      use_more_text: more
       display_comment: ''
       use_ajax: false
       hide_attachment_summary: false
@@ -901,15 +901,15 @@ display:
       show_admin_links: false
       menu:
         type: 'default tab'
-        title: Список
-        description: 'Поиск и управление людьми, взаимодействующих с вашим сайтом.'
+        title: List
+        description: 'Find and manage people interacting with your site.'
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
-        title: Пользователи
-        description: 'Управление учётными записями, ролями и правами пользователей.'
+        title: People
+        description: 'Manage user accounts, roles, and permissions.'
         menu_name: admin
         weight: 0
       defaults:

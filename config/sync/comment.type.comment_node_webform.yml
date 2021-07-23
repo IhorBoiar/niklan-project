@@ -1,8 +1,0 @@
-uuid: 1a2f5562-3738-4f5e-95b7-965f45890d17
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_webform
-label: 'Веб-форма comment'
-target_entity_type_id: node
-description: null

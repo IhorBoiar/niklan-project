@@ -1,9 +1,0 @@
-uuid: 155f2933-cae9-492a-86f8-eac9d59e0aae
-langcode: uk
-status: true
-dependencies: {  }
-id: node__construction_progress
-label: 'Вміст: Ход строительства'
-tags:
-  description: '【[node:title]】 Агентство недвижимости Маяк ⭐ Наши услуги - Покупка, продажа, аренда: ✅ Квартиры ✅ Дома ✅ Земельные участки ✅ Коммерческая недвижимость'
-  title: '≡ [node:title] 》 Агентство недвижимости Маяк в г. Киев'

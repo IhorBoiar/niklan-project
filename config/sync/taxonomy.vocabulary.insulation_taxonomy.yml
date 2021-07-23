@@ -1,8 +1,0 @@
-uuid: dc50721f-1a21-4fdc-ad2b-7d3340f5bd28
-langcode: ru
-status: true
-dependencies: {  }
-name: Утепление
-vid: insulation_taxonomy
-description: 'Тип утепления для ЖК'
-weight: 0

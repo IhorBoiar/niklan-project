@@ -1,8 +1,0 @@
-uuid: 0e65a95d-f92b-4f6a-9f95-71cc5c81b07a
-langcode: ru
-status: true
-dependencies: {  }
-name: Новострой
-vid: new_building
-description: ''
-weight: 0

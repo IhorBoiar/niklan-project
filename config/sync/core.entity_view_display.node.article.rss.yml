@@ -1,14 +1,12 @@
-uuid: 65986db0-ff28-451e-8dfc-07245e0a8865
-langcode: ru
+uuid: 89e6ed73-d149-4400-9d72-b0ac53aa012f
+langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.comment_node_article
     - field.field.node.article.field_image
-    - field.field.node.article.field_metatag
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -26,8 +24,5 @@ content:
 hidden:
   body: true
   comment: true
-  comment_node_article: true
   field_image: true
-  field_metatag: true
   field_tags: true
-  langcode: true

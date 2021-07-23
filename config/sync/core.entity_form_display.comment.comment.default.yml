@@ -1,5 +1,5 @@
-uuid: 3891e2cc-b381-45ab-87d7-3839ca01fed1
-langcode: ru
+uuid: f54a5424-83e5-469c-bb90-aa295ba40276
+langcode: en
 status: true
 dependencies:
   config:
@@ -24,13 +24,6 @@ content:
     settings:
       rows: 5
       placeholder: ''
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   subject:
     type: string_textfield

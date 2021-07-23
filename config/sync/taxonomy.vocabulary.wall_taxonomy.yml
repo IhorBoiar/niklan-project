@@ -1,8 +1,0 @@
-uuid: 38680a9d-8a52-4d9d-81d1-b1c528ef5e35
-langcode: ru
-status: true
-dependencies: {  }
-name: Стены
-vid: wall_taxonomy
-description: 'Тип стен для ЖК'
-weight: 0

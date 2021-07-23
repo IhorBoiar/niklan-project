@@ -1,5 +1,5 @@
-uuid: 448b0ff2-b8c7-4390-9c7a-8a3efe856105
-langcode: ru
+uuid: 74099c11-9868-44e6-ad85-78a5e770f4f6
+langcode: en
 status: true
 dependencies:
   module:
@@ -8,9 +8,9 @@ dependencies:
 _core:
   default_config_hash: xYsnUBUnDk0S9KmMSeGgSBPZMAB5aEJhMqN9vCW1L-A
 id: comment
-label: Комментарии
+label: Comments
 module: comment
-description: 'Найти и управлять комментариями.'
+description: 'Find and manage comments.'
 tag: default
 base_table: comment_field_data
 base_field: cid
@@ -39,7 +39,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Применить
+          submit_button: Filter
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -193,7 +193,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Тема
+          label: Subject
           exclude: false
           alter:
             alter_text: false
@@ -387,7 +387,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Опубликовано
+          label: 'Posted in'
           exclude: false
           alter:
             alter_text: false
@@ -682,7 +682,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Тема
+            label: Subject
             description: ''
             use_operator: false
             operator: subject_op
@@ -724,7 +724,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Имя автора'
+            label: 'Author name'
             description: ''
             use_operator: false
             operator: combine_op
@@ -813,7 +813,7 @@ display:
           entity_type: comment
           entity_field: changed
           plugin_id: date
-      title: Комментарии
+      title: Comments
       header: {  }
       footer: {  }
       empty:
@@ -826,13 +826,13 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Комментарии отсутствуют.'
+          content: 'No comments available.'
           plugin_id: text_custom
       arguments: {  }
       display_extenders: {  }
       use_more: false
       use_more_always: true
-      use_more_text: ещё
+      use_more_text: more
       use_ajax: false
       hide_attachment_summary: false
       show_admin_links: true
@@ -867,19 +867,19 @@ display:
   page_published:
     display_plugin: page
     id: page_published
-    display_title: 'Опубликованные комментарии'
+    display_title: 'Published comments'
     position: 1
     display_options:
       path: admin/content/comment
       menu:
         type: tab
-        title: Комментарии
-        description: 'Комментарии опубликованы'
+        title: Comments
+        description: 'Comments published'
         parent: ''
         weight: 0
         context: '0'
         menu_name: admin
-      display_description: 'Список утверждённых комментариев.'
+      display_description: 'The approved comments listing.'
       display_extenders: {  }
       exposed_block: false
       display_comment: ''
@@ -896,19 +896,19 @@ display:
   page_unapproved:
     display_plugin: page
     id: page_unapproved
-    display_title: 'Неодобренные комментарии'
+    display_title: 'Unapproved comments'
     position: 2
     display_options:
       path: admin/content/comment/approval
       menu:
         type: tab
-        title: 'Неодобренные комментарии'
-        description: 'Комментарии не одобрены'
+        title: 'Unapproved comments'
+        description: 'Comments unapproved'
         parent: ''
         weight: 1
         context: '0'
         menu_name: admin
-      display_description: 'Список неутверждённых комментариев.'
+      display_description: 'The unapproved comments listing.'
       filters:
         status:
           id: status
@@ -963,7 +963,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Тема
+            label: Subject
             description: ''
             use_operator: false
             operator: subject_op
@@ -1005,7 +1005,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Имя автора'
+            label: 'Author Name'
             description: ''
             use_operator: false
             operator: combine_op
@@ -1146,7 +1146,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Тема
+          label: Subject
           exclude: false
           alter:
             alter_text: false
@@ -1340,7 +1340,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Опубликовано
+          label: 'Posted in'
           exclude: false
           alter:
             alter_text: false

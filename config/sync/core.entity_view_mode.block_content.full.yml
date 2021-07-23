@@ -1,5 +1,5 @@
-uuid: f135a96f-0a80-4bde-8a09-0815f1a52b34
-langcode: ru
+uuid: f87f0b4c-b775-449f-a5c3-d49ef670ba08
+langcode: en
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: 4tedlMuvQjDOdvHdw86_e-2Rt78aR7TGFMfOK8Ejppg
 id: block_content.full
-label: Полный
+label: Full
 targetEntityType: block_content
 cache: true

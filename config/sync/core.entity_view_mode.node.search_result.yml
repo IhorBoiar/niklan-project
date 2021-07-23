@@ -1,5 +1,5 @@
-uuid: 8d5b27fc-30ac-434a-80e3-a589b3437bb7
-langcode: ru
+uuid: b0e94409-5f54-4d94-bd1c-e4bb0fea7169
+langcode: en
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: 6GCOQ-jP2RbdbHA5YWQ6bT8CfGbqrBYKOSC_XY4E3ZM
 id: node.search_result
-label: 'Подсвеченный ввод в результатах поиска'
+label: 'Search result highlighting input'
 targetEntityType: node
 cache: true

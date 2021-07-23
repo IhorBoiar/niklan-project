@@ -1,5 +1,5 @@
-uuid: 163ce7ac-2371-49c3-913d-4b16a49a8fce
-langcode: ru
+uuid: 166d5fad-b281-4d4e-8012-17a91e0e8d63
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: p0RFIRt3fQULgsg3B2wHgLjJqxliqEIcDCxve9Yn0rU
 id: block-layout
-label: 'Страница схемы блоков'
+label: 'Block Layout Page'
 module: block
 routes:
   -
@@ -16,13 +16,13 @@ tips:
   block-layout:
     id: block-layout
     plugin: text
-    label: 'Макет блоков'
+    label: 'Block Layout'
     body: 'Blocks are boxes of content rendered into an area, or region, of a web page that can be displayed in regions (such as footer or sidebar) on your page.'
     weight: 1
   place-block:
     id: place-block
     plugin: text
-    label: 'Разместить блоки'
+    label: 'Place Blocks'
     body: 'Any custom or contributed block can be added to a particular region by clicking on a button Place block. A new block can also be created by clicking on Place Block'
     weight: 2
     attributes:
@@ -30,7 +30,7 @@ tips:
   block-region:
     id: block-region
     plugin: text
-    label: 'Регион Блока'
+    label: 'Block Region'
     body: 'Assign or change the region of a block by clicking here. A dropdown list with all the regions will appear.You can place one block in multiple regions.'
     weight: 3
     attributes:
@@ -38,7 +38,7 @@ tips:
   configure-block:
     id: configure-block
     plugin: text
-    label: 'Настроить блок'
+    label: 'Configure Block'
     body: 'By Clicking on "Configure" you can go ahead and edit the contents of the block, deal with the visibility settings and even change the placement of where it is on your theme.'
     weight: 4
     attributes:
@@ -46,6 +46,6 @@ tips:
   custom-block-library:
     id: custom-block-library
     plugin: text
-    label: 'Библиотека Пользовательских блоков'
+    label: 'Custom Block Library'
     body: 'The block management screen also has an another tab on the top which is used to add Custom blocks. The name of the tab is "Custom block library". This tab ultimately provides a link to add custom blocks.'
     weight: 5

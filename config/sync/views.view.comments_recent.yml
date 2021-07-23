@@ -1,5 +1,5 @@
-uuid: b5acb5dc-7fc0-4e9e-8c64-ba286afd7850
-langcode: ru
+uuid: 2e8b012f-f77b-48db-a158-bfc9a3b97bc5
+langcode: en
 status: true
 dependencies:
   module:
@@ -9,9 +9,9 @@ dependencies:
 _core:
   default_config_hash: rX48v_U7vIh1FltSyJnTdpebtM-lj991qL_jO8BmZ2w
 id: comments_recent
-label: 'Последние комментарии'
+label: 'Recent comments'
 module: views
-description: 'Последние комментарии.'
+description: 'Recent comments.'
 tag: default
 base_table: comment_field_data
 base_field: cid
@@ -224,7 +224,7 @@ display:
           plugin_id: field
           entity_type: comment
           entity_field: cid
-      title: 'Последние комментарии'
+      title: 'Recent comments'
       empty:
         area_text_custom:
           id: area_text_custom
@@ -235,7 +235,7 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          content: 'Комментарии отсутствуют.'
+          content: 'No comments available.'
           tokenize: false
           plugin_id: text_custom
       display_extenders: {  }
@@ -252,7 +252,7 @@ display:
     display_title: Block
     position: 1
     display_options:
-      block_description: 'Последние комментарии'
+      block_description: 'Recent comments'
       block_category: 'Lists (Views)'
       allow:
         items_per_page: true

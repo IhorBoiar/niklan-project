@@ -1,5 +1,5 @@
-uuid: b0e7210f-518b-410e-a963-1c9a3dcf115d
-langcode: ru
+uuid: 4f5c89e9-dc16-4d4d-8af5-553b2cbd0921
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,10 +16,9 @@ mode: default
 content:
   body:
     label: hidden
-    weight: 1
+    type: text_default
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: text_default
-    region: content
-hidden:
-  langcode: true
+hidden: {  }

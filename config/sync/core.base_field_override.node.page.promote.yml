@@ -1,5 +1,5 @@
-uuid: af2f58c4-0b96-45af-8f3b-e9a8d6cdc03d
-langcode: ru
+uuid: 11a5d5fb-3fdf-4f16-b5ca-8e88ea6a45fb
+langcode: en
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.page.promote
 field_name: promote
 entity_type: node
 bundle: page
-label: 'Помещено на главную страницу'
+label: 'Promoted to front page'
 description: ''
 required: false
 translatable: false
@@ -19,6 +19,6 @@ default_value:
     value: 0
 default_value_callback: ''
 settings:
-  on_label: Вкл
-  off_label: Выкл
+  on_label: 'On'
+  off_label: 'Off'
 field_type: boolean

@@ -1,8 +1,0 @@
-uuid: e819a8c7-b2d4-40c1-be39-6b081b6f9b68
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_house
-label: 'Дома comment'
-target_entity_type_id: node
-description: null

@@ -1,5 +1,5 @@
-uuid: d8caf478-ead5-4295-a055-709610d68c65
-langcode: ru
+uuid: 4f52174e-4eb3-419f-8e59-8031bf6f1876
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,28 +13,28 @@ id: user.user.user_picture
 field_name: user_picture
 entity_type: user
 bundle: user
-label: Зображення
-description: 'Ваше віртуальне обличчя або фото.'
+label: Picture
+description: 'Your virtual face or picture.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: pictures
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: 800KB
-  max_resolution: 1024x1024
-  min_resolution: ''
+  file_directory: 'pictures/[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
   alt_field: false
-  alt_field_required: false
   title_field: false
-  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
   default_image:
-    uuid: ''
+    uuid: null
     alt: ''
     title: ''
     width: null
     height: null
+  alt_field_required: false
+  title_field_required: false
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

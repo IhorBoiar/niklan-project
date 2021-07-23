@@ -1,8 +1,0 @@
-uuid: 4e4d593f-222a-4ea1-baa1-86a5932ba1b0
-langcode: ru
-status: true
-dependencies: {  }
-id: comment_node_flat
-label: 'Квартиры comment'
-target_entity_type_id: node
-description: null

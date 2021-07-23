@@ -1,5 +1,5 @@
-uuid: 7bb0dd68-fcfc-4eae-b240-365bb8ecc877
-langcode: ru
+uuid: 7f106fcd-d88f-488c-81ca-83b2b75c484d
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action
-label: 'Удалить материал с главной страницы'
+label: 'Remove content from front page'
 type: node
 plugin: node_unpromote_action
 configuration: {  }

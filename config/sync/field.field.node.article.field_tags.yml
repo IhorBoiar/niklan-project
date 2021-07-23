@@ -1,5 +1,5 @@
-uuid: 9bc4324f-f3bc-4580-8e5f-22054fd7cd83
-langcode: ru
+uuid: 32b8a1b4-6894-4772-abfc-1e7204fda22e
+langcode: en
 status: true
 dependencies:
   config:
@@ -12,8 +12,8 @@ id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
-label: Теги
-description: 'Введите список, разделенный запятой. Например: Амстердам, Мехико, "Кливленд, Огайо"'
+label: Tags
+description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
 translatable: true
 default_value: {  }

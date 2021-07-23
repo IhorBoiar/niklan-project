@@ -1,14 +1,10 @@
-uuid: 0e8eec0f-7645-4941-bce1-899cbefa0b2d
-langcode: ru
+uuid: 380a487f-7a9a-416a-a2fa-a61a888ec59a
+langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
-    - field.field.node.page.comment_node_page
-    - field.field.node.page.field_header_foto
-    - field.field.node.page.field_image
-    - field.field.node.page.field_metatag
     - node.type.page
   module:
     - text
@@ -31,9 +27,4 @@ content:
   links:
     weight: 101
     region: content
-hidden:
-  comment_node_page: true
-  field_header_foto: true
-  field_image: true
-  field_metatag: true
-  langcode: true
+hidden: {  }

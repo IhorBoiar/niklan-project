@@ -1,5 +1,5 @@
-uuid: 9ddc6278-fdb3-4149-8817-644b0415dcff
-langcode: ru
+uuid: 89e0e519-464e-4ff8-9feb-eac6282d0298
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
 id: comment_unpublish_action
-label: 'Снять с публикации комментарий'
+label: 'Unpublish comment'
 type: comment
 plugin: 'entity:unpublish_action:comment'
 configuration: {  }

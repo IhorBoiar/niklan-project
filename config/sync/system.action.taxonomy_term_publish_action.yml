@@ -1,5 +1,5 @@
-uuid: 346c9006-7ec1-44f2-8712-3e035a66b16a
-langcode: ru
+uuid: 08c99ac3-83be-4d6d-8ff1-c95193394b87
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: DoVt_VGgVLcDD4XmVbSFzr0K17SJy9imFiYusKkJBgY
 id: taxonomy_term_publish_action
-label: 'Опубликовать термин таксономии'
+label: 'Publish taxonomy term'
 type: taxonomy_term
 plugin: 'entity:publish_action:taxonomy_term'
 configuration: {  }
