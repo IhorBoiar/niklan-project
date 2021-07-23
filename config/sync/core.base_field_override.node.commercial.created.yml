@@ -1,0 +1,18 @@
+uuid: 25f16c82-6509-4fbe-963b-71b894d246f4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.commercial
+id: node.commercial.created
+field_name: created
+entity_type: node
+bundle: commercial
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

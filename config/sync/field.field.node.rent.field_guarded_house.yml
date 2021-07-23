@@ -1,0 +1,19 @@
+uuid: 0161299b-f025-460c-9718-c973b124e4e5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_guarded_house
+    - node.type.rent
+id: node.rent.field_guarded_house
+field_name: field_guarded_house
+entity_type: node
+bundle: rent
+label: 'Охраняемый дом'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

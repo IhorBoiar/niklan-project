@@ -1,0 +1,21 @@
+uuid: 00a58cb1-8de6-44b2-a4c8-0b0fe54e8f65
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_room_count_plan
+    - node.type.planning
+  module:
+    - options
+id: node.planning.field_room_count_plan
+field_name: field_room_count_plan
+entity_type: node
+bundle: planning
+label: 'Количество комнат'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

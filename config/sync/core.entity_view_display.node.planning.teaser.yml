@@ -1,0 +1,49 @@
+uuid: 224fedc1-b5ed-4fe6-9bc0-86a60c57353c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.planning.body
+    - field.field.node.planning.comment_node_planning
+    - field.field.node.planning.field_all_storey
+    - field.field.node.planning.field_complex
+    - field.field.node.planning.field_field_storey
+    - field.field.node.planning.field_main_image
+    - field.field.node.planning.field_metatag
+    - field.field.node.planning.field_meterage
+    - field.field.node.planning.field_number_of_flats
+    - field.field.node.planning.field_room_count_plan
+    - node.type.planning
+  module:
+    - text
+    - user
+id: node.planning.teaser
+targetEntityType: node
+bundle: planning
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_planning: true
+  field_all_storey: true
+  field_complex: true
+  field_field_storey: true
+  field_main_image: true
+  field_metatag: true
+  field_meterage: true
+  field_number_of_flats: true
+  field_room_count_plan: true
+  langcode: true

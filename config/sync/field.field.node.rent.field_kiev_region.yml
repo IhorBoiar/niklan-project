@@ -1,0 +1,26 @@
+uuid: f12ec03b-b621-41bd-a383-d0bbae7afa31
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kiev_region
+    - node.type.rent
+    - taxonomy.vocabulary.kiev_region
+id: node.rent.field_kiev_region
+field_name: field_kiev_region
+entity_type: node
+bundle: rent
+label: 'Киевская область'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      kiev_region: kiev_region
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: ac963e35-b1ce-4b00-b540-bb8113cf8457
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_water
+    - node.type.land
+id: node.land.field_water
+field_name: field_water
+entity_type: node
+bundle: land
+label: Вода
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

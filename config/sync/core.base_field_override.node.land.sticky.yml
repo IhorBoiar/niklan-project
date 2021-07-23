@@ -1,0 +1,22 @@
+uuid: 3b5f0864-80fa-43dc-8fdb-74337c134aa7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.land
+id: node.land.sticky
+field_name: sticky
+entity_type: node
+bundle: land
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

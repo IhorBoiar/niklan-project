@@ -1,0 +1,25 @@
+uuid: 49724d81-f6bd-4851-bd86-414a555c9cf9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority_of_show
+    - node.type.complex
+id: node.complex.field_priority_of_show
+field_name: field_priority_of_show
+entity_type: node
+bundle: complex
+label: 'Приоритет показа'
+description: "Приоритет очередности показа объектов в CMS.\n<b>1</b> - самый большой приоритет, <b>2</b> - следующий, и так далее.\nЗначения могут повторятся."
+required: false
+translatable: true
+default_value:
+  -
+    value: 99999
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 12d1c905-9e7a-4219-8900-5afb9a6b3cc4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fast
+    - node.type.rent
+id: node.rent.field_fast
+field_name: field_fast
+entity_type: node
+bundle: rent
+label: Срочно
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Срочно
+  off_label: ''
+field_type: boolean

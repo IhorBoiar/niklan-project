@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Main file for custom hooks and functions
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function test_theme($existing, $type, $theme, $path) {
+  return [
+    'test_example_first' => [
+      'variables' => [],
+      'render_element' => ''
+    ]
+  ];
+}

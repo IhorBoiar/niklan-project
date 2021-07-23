@@ -1,0 +1,19 @@
+uuid: 4e93107f-254c-407c-b406-aeee174122c1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_garage
+    - node.type.house
+id: node.house.field_garage
+field_name: field_garage
+entity_type: node
+bundle: house
+label: Гараж
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

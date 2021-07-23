@@ -1,0 +1,26 @@
+uuid: 49588872-8a4f-4296-b05d-b3dbb159c24f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_insulation
+    - node.type.complex
+    - taxonomy.vocabulary.insulation_taxonomy
+id: node.complex.field_insulation
+field_name: field_insulation
+entity_type: node
+bundle: complex
+label: Утепление
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      insulation_taxonomy: insulation_taxonomy
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

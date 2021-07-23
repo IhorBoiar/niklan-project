@@ -1,0 +1,23 @@
+uuid: 47b9a8bf-453d-4c46-9ccc-5bde170798ca
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.commercial
+  module:
+    - text
+id: node.commercial.body
+field_name: body
+entity_type: node
+bundle: commercial
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

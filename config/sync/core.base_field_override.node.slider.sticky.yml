@@ -1,0 +1,22 @@
+uuid: a900c5a5-e993-4765-807e-a94e723b779d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.slider
+id: node.slider.sticky
+field_name: sticky
+entity_type: node
+bundle: slider
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

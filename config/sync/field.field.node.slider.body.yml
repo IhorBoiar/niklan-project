@@ -1,0 +1,23 @@
+uuid: 65083652-4974-4f72-83ba-29f09ff7fd61
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.slider
+  module:
+    - text
+id: node.slider.body
+field_name: body
+entity_type: node
+bundle: slider
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

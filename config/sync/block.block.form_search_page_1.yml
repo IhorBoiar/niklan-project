@@ -1,0 +1,23 @@
+uuid: 90a857b1-b2ac-4129-a7e7-7f78b16294d3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - mayak
+id: form_search_page_1
+theme: mayak
+region: navigation
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search-page'
+settings:
+  id: 'views_exposed_filter_block:search-page'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

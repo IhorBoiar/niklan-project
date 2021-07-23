@@ -1,0 +1,8 @@
+uuid: 0ecf8032-231b-4a0f-9578-fe75f197bb67
+langcode: ru
+status: true
+dependencies: {  }
+name: Адрес
+vid: address
+description: ''
+weight: 0

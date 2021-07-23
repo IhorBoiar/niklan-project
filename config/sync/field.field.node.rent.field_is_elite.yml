@@ -1,0 +1,23 @@
+uuid: 6e5487b6-cffb-4365-bf74-b6eb01cc74eb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_elite
+    - node.type.rent
+id: node.rent.field_is_elite
+field_name: field_is_elite
+entity_type: node
+bundle: rent
+label: Элитное
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Элитное '
+  off_label: ''
+field_type: boolean

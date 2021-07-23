@@ -1,0 +1,23 @@
+uuid: 18be0f98-b483-49a7-a364-14a5263a7ad2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_budget
+    - node.type.complex
+id: node.complex.field_budget
+field_name: field_budget
+entity_type: node
+bundle: complex
+label: Бюджет
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

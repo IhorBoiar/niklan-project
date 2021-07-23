@@ -1,0 +1,18 @@
+uuid: ae984ece-88e0-4dd8-a087-937b5152930a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.property_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.property_type
+target_entity_type_id: taxonomy_term
+target_bundle: property_type
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,29 @@
+uuid: 61ed2bda-cc8e-41bc-8a46-3b57150c873d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.block
+  module:
+    - system
+    - views
+  theme:
+    - mayak
+id: block_block_2
+theme: mayak
+region: content_full
+weight: -18
+provider: null
+plugin: 'views_block:block-block_2'
+settings:
+  id: 'views_block:block-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

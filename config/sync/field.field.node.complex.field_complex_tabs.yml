@@ -1,0 +1,28 @@
+uuid: 009129e2-1794-4533-ac68-ab0059783e0f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_complex_tabs
+    - node.type.complex
+  module:
+    - bootstrap_horizontal_tabs
+id: node.complex.field_complex_tabs
+field_name: field_complex_tabs
+entity_type: node
+bundle: complex
+label: 'Продажа квартир от застройщика'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    body:
+      value: "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>1-комнатные</td>\r\n\t\t\t<td>от 1.14 млн. грн</td>\r\n\t\t\t<td>44 м²</td>\r\n\t\t\t<td>25 720 грн/м²</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>2-комнатные</td>\r\n\t\t\t<td>от 1.43 млн грн</td>\r\n\t\t\t<td>57.19 м²</td>\r\n\t\t\t<td>24 970 грн/м²</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>3-комнатные</td>\r\n\t\t\t<td>от 2,11 млн грн</td>\r\n\t\t\t<td>80.89 м²</td>\r\n\t\t\t<td>26 110 грн/м²</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>4-комнатные</td>\r\n\t\t\t<td>от 3.25 млн.грн</td>\r\n\t\t\t<td>95.45 м²</td>\r\n\t\t\t<td>34 060 грн/м</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>5-комнатные</td>\r\n\t\t\t<td>от 4.73 млн.грн</td>\r\n\t\t\t<td>137.71 м²</td>\r\n\t\t\t<td>34 320 грн/м</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Двухуровневые</td>\r\n\t\t\t<td>от 2.66 млн.грн</td>\r\n\t\t\t<td>95.45 м²</td>\r\n\t\t\t<td>27 850 грн/м</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      format: full_html
+    header: Tab-1
+    body_value: "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>1-комнатные</td>\r\n\t\t\t<td>от 1.14 млн. грн</td>\r\n\t\t\t<td>44 м²</td>\r\n\t\t\t<td>25 720 грн/м²</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>2-комнатные</td>\r\n\t\t\t<td>от 1.43 млн грн</td>\r\n\t\t\t<td>57.19 м²</td>\r\n\t\t\t<td>24 970 грн/м²</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>3-комнатные</td>\r\n\t\t\t<td>от 2,11 млн грн</td>\r\n\t\t\t<td>80.89 м²</td>\r\n\t\t\t<td>26 110 грн/м²</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>4-комнатные</td>\r\n\t\t\t<td>от 3.25 млн.грн</td>\r\n\t\t\t<td>95.45 м²</td>\r\n\t\t\t<td>34 060 грн/м</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>5-комнатные</td>\r\n\t\t\t<td>от 4.73 млн.грн</td>\r\n\t\t\t<td>137.71 м²</td>\r\n\t\t\t<td>34 320 грн/м</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Двухуровневые</td>\r\n\t\t\t<td>от 2.66 млн.грн</td>\r\n\t\t\t<td>95.45 м²</td>\r\n\t\t\t<td>27 850 грн/м</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    body_format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: bootstrap_horizontal_tabs

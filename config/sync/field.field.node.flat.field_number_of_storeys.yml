@@ -1,0 +1,23 @@
+uuid: 801e4ba7-ae24-413e-aa5b-ffdf01a93273
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_storeys
+    - node.type.flat
+id: node.flat.field_number_of_storeys
+field_name: field_number_of_storeys
+entity_type: node
+bundle: flat
+label: Этажность
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

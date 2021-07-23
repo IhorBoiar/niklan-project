@@ -1,0 +1,18 @@
+uuid: 21a92777-bc6d-411d-a3aa-2588759d3448
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.roominess_taxonomy
+id: taxonomy_term.roominess_taxonomy.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: roominess_taxonomy
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

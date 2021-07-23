@@ -1,0 +1,23 @@
+uuid: f805624f-38f1-4ff0-8b86-2e476929e15a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_flat_count
+    - node.type.complex
+id: node.complex.field_flat_count
+field_name: field_flat_count
+entity_type: node
+bundle: complex
+label: 'Количество квартир'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

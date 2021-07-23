@@ -1,0 +1,19 @@
+uuid: 4d561858-9aba-4b09-9c01-1e4d2394bc04
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_payback_period
+    - node.type.commercial
+id: node.commercial.field_payback_period
+field_name: field_payback_period
+entity_type: node
+bundle: commercial
+label: 'Срок окупаемости'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

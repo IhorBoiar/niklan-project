@@ -1,0 +1,8 @@
+uuid: 26c21671-9aff-4752-9793-4ed622f80ddc
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Технология строительства'
+vid: tehnology_taxonomy
+description: 'Выбор технологии строительства для ЖК'
+weight: 0

@@ -1,0 +1,8 @@
+uuid: 4078be86-fad9-4dd0-8da2-3e8f1e18c7c9
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_slider
+label: 'Слайдер comment'
+target_entity_type_id: node
+description: null

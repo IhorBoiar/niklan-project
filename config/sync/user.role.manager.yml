@@ -1,0 +1,12 @@
+uuid: 26f6a2eb-363a-40cf-9d52-47cdb6a6f854
+langcode: ru
+status: true
+dependencies: {  }
+id: manager
+label: Manager
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration menu'
+  - 'access administration pages'
+  - 'use Search Autocomplete'

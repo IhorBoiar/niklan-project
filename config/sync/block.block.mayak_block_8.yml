@@ -1,0 +1,30 @@
+uuid: 4c0ce8c9-9470-4cd7-bfa4-d64fb70ee133
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2d1a5e78-77e6-4b53-8fee-273fd96dbbbb'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_8
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:2d1a5e78-77e6-4b53-8fee-273fd96dbbbb'
+settings:
+  id: 'block_content:2d1a5e78-77e6-4b53-8fee-273fd96dbbbb'
+  label: 'СЕО текст на странице квартир'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /flats
+    negate: false

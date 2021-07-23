@@ -1,0 +1,21 @@
+uuid: 69ec7242-8eda-46a8-b655-12a944e66a06
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_house
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_node_house.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_node_house
+label: Comment
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

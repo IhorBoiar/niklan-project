@@ -1,0 +1,26 @@
+uuid: ab9c9b2e-642e-4c6d-a61e-085c3562dfff
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heating_home
+    - node.type.complex
+    - taxonomy.vocabulary.heating_home_taxonomy
+id: node.complex.field_heating_home
+field_name: field_heating_home
+entity_type: node
+bundle: complex
+label: Отопление
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      heating_home_taxonomy: heating_home_taxonomy
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

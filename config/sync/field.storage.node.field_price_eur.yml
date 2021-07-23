@@ -1,0 +1,20 @@
+uuid: f7fa27bd-0080-4024-8d08-7e27d5abb683
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_price_eur
+field_name: field_price_eur
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

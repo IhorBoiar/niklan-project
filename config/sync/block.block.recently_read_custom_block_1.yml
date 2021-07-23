@@ -1,0 +1,37 @@
+uuid: 6f1b4297-17f8-4e9f-b14d-f5b071768a64
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.recently_read_custom
+  module:
+    - ctools
+    - views
+  theme:
+    - mayak
+id: recently_read_custom_block_1
+theme: mayak
+region: postscript
+weight: 0
+provider: null
+plugin: 'views_block:recently_read_custom-block_1'
+settings:
+  id: 'views_block:recently_read_custom-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      abroad: abroad
+      commercial: commercial
+      flat: flat
+      house: house
+      land: land
+      rent: rent
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

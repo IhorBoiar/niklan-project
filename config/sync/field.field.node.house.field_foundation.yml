@@ -1,0 +1,19 @@
+uuid: c4201a07-ffb6-4809-84d8-80a765374d06
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foundation
+    - node.type.house
+id: node.house.field_foundation
+field_name: field_foundation
+entity_type: node
+bundle: house
+label: Фундамент
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

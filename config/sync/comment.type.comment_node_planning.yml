@@ -1,0 +1,8 @@
+uuid: a6f4f9f3-6af0-400e-8355-98ac23e6ed8c
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_planning
+label: 'Планировки comment'
+target_entity_type_id: node
+description: null

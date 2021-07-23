@@ -1,0 +1,25 @@
+uuid: f582e2af-85dd-419a-beb4-9e94d376a4b9
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4cc33265-5d07-451b-876b-6b58d0d953ce'
+  module:
+    - block_content
+  theme:
+    - mayak
+id: footer_phone
+theme: mayak
+region: footer_third
+weight: -20
+provider: null
+plugin: 'block_content:4cc33265-5d07-451b-876b-6b58d0d953ce'
+settings:
+  id: 'block_content:4cc33265-5d07-451b-876b-6b58d0d953ce'
+  label: 'Телефоны в шапке'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

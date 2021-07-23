@@ -1,0 +1,22 @@
+uuid: 37edabb5-2df1-472f-a651-28da1d13a8c7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.construction_progress
+id: node.construction_progress.sticky
+field_name: sticky
+entity_type: node
+bundle: construction_progress
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

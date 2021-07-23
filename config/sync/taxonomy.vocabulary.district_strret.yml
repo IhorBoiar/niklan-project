@@ -1,0 +1,8 @@
+uuid: ebacd02f-c598-41de-a4b2-9717758c8662
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Район - Улица'
+vid: district_strret
+description: ''
+weight: 0

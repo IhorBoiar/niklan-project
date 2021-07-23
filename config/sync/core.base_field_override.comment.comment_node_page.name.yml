@@ -1,0 +1,20 @@
+uuid: 89f73f46-0e63-487b-be94-9998f41f6a33
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_page
+id: comment.comment_node_page.name
+field_name: name
+entity_type: comment
+bundle: comment_node_page
+label: Название
+description: 'Имя автора комментария.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: fafca690-dff3-4f1f-9936-92bf51ed72f0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_article
+id: comment.comment_node_article.name
+field_name: name
+entity_type: comment
+bundle: comment_node_article
+label: Название
+description: 'Имя автора комментария.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

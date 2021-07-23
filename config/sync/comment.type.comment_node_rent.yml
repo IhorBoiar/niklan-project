@@ -1,0 +1,8 @@
+uuid: 19bf30d8-a487-43d7-aaa5-6fe57e4d6043
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_rent
+label: 'Аренда comment'
+target_entity_type_id: node
+description: null

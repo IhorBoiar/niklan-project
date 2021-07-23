@@ -1,0 +1,30 @@
+uuid: 80edc9cb-8e1c-4629-8864-3186c345d9dc
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2ced1618-28a8-4ca8-8183-bbe6ce70c445'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: map
+theme: mayak
+region: content_full
+weight: -17
+provider: null
+plugin: 'block_content:2ced1618-28a8-4ca8-8183-bbe6ce70c445'
+settings:
+  id: 'block_content:2ced1618-28a8-4ca8-8183-bbe6ce70c445'
+  label: Map
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/22"
+    negate: false

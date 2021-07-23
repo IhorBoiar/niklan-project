@@ -1,0 +1,9 @@
+uuid: cf24d1be-ab29-45c6-a358-e2e8ce97b30e
+langcode: uk
+status: true
+dependencies: {  }
+id: en
+label: EN
+direction: ltr
+weight: 2
+locked: false

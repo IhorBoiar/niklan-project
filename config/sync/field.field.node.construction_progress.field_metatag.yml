@@ -1,0 +1,21 @@
+uuid: 512bde2a-ebe4-45ae-8de6-751ff317cebc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.construction_progress
+  module:
+    - metatag
+id: node.construction_progress.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: construction_progress
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

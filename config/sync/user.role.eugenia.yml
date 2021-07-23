@@ -1,0 +1,37 @@
+uuid: 48221ebb-dd1f-4f8f-a70b-7b1ee4c42f68
+langcode: ru
+status: true
+dependencies: {  }
+id: eugenia
+label: Eugenia
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration menu'
+  - 'access administration pages'
+  - 'access all webform results'
+  - 'access content overview'
+  - 'access draggableviews'
+  - 'access library reports'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access statistics'
+  - 'administer blocks'
+  - 'administer menu'
+  - 'administer menu attributes'
+  - 'administer meta tags'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer site configuration'
+  - 'administer taxonomy'
+  - 'administer users'
+  - 'administer views'
+  - 'administer xmlsitemap'
+  - 'block IP addresses'
+  - 'bypass node access'
+  - 'delete all webform submissions'
+  - 'edit all webform submissions'
+  - 'edit meta tags'
+  - 'flush caches'
+  - 'use text format full_html'
+  - 'view the administration theme'

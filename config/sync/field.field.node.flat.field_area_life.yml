@@ -1,0 +1,23 @@
+uuid: 136fb208-ba94-4b72-95c7-17da1d500bd4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_area_life
+    - node.type.flat
+id: node.flat.field_area_life
+field_name: field_area_life
+entity_type: node
+bundle: flat
+label: Жилая
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' м<sup>2</sup>'
+field_type: decimal

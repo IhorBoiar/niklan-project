@@ -1,0 +1,20 @@
+uuid: 193aef26-918d-42f4-b083-2d406b6e7cfb
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_houses_counte
+field_name: field_houses_counte
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

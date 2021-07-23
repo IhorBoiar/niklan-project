@@ -1,0 +1,29 @@
+uuid: e77289a5-913c-4a66-8c09-daabd5a4873b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manager
+    - node.type.house
+  content:
+    - 'user:user:aff64f11-1ef5-40c0-b209-878082a183fa'
+id: node.house.field_manager
+field_name: field_manager
+entity_type: node
+bundle: house
+label: 'Менеджер объекта'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: aff64f11-1ef5-40c0-b209-878082a183fa
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: team
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

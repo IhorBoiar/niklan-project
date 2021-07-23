@@ -1,0 +1,8 @@
+uuid: 9ffff39f-042d-46c6-8c10-e587eb7c02ca
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_complex
+label: 'Новостройки comment'
+target_entity_type_id: node
+description: null

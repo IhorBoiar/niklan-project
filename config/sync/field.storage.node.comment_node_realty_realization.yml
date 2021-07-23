@@ -1,0 +1,20 @@
+uuid: 8548e78f-d095-4c31-97ff-a8baa6f7412c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_realty_realization
+field_name: comment_node_realty_realization
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_realty_realization
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

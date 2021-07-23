@@ -1,0 +1,114 @@
+uuid: 4ff720d3-4ac4-4913-8ba3-a9ad80f6228b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_department
+    - field.field.user.user.field_email
+    - field.field.user.user.field_image
+    - field.field.user.user.field_name
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_position
+    - field.field.user.user.field_skype
+    - field.field.user.user.field_user_priority
+    - field.field.user.user.field_viber
+    - field.field.user.user.user_picture
+    - image.style.236x343
+  module:
+    - field_group
+    - image
+    - user
+third_party_settings:
+  field_group:
+    group_info:
+      children:
+        - field_name
+        - field_position
+        - field_phone
+        - field_email
+        - field_skype
+        - field_viber
+      parent_name: ''
+      weight: 1
+      label: Info
+      format_settings:
+        formatter: open
+        id: ''
+        classes: 'group-info field-group-div'
+        description: ''
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        element: div
+      format_type: html_element
+      region: content
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_email:
+    label: inline
+    weight: 6
+    type: email_mailto
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: hidden
+    weight: 0
+    type: image
+    settings:
+      image_style: 236x343
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_name:
+    label: hidden
+    weight: 2
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_phone:
+    label: inline
+    weight: 5
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_position:
+    label: hidden
+    weight: 3
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_skype:
+    label: inline
+    weight: 7
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_viber:
+    label: inline
+    weight: 8
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_department: true
+  field_user_priority: true
+  langcode: true
+  member_for: true
+  user_picture: true

@@ -1,0 +1,23 @@
+uuid: 7c28ba8a-25c8-4b29-8299-76e6f1aed28c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.commercial
+id: node.commercial.field_price
+field_name: field_price
+entity_type: node
+bundle: commercial
+label: Цена
+description: '<strong>Главное поле цены.</strong> Которое рассчитывает все цены во всех валютах.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

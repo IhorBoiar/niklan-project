@@ -1,0 +1,35 @@
+uuid: 10194e6f-9747-4954-8b1b-028401574ef5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.address.field_id
+    - field.field.taxonomy_term.address.field_main_image
+    - taxonomy.vocabulary.address
+  module:
+    - image
+    - text
+id: taxonomy_term.address.default
+targetEntityType: taxonomy_term
+bundle: address
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_main_image:
+    label: hidden
+    weight: 0
+    type: image
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_id: true
+  langcode: true

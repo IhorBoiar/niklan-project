@@ -1,0 +1,8 @@
+uuid: 36c8585a-4672-4338-9e64-35d865adf216
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Тип объекта'
+vid: object_type
+description: ''
+weight: -2

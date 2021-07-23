@@ -1,0 +1,18 @@
+uuid: 07e15c72-61df-42c1-b4d9-3f5c97c39983
+langcode: ru
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.metatag
+field_name: metatag
+entity_type: user
+bundle: user
+label: 'Мета-теги (скрытое поле для поддержки JSON)'
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

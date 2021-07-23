@@ -1,0 +1,18 @@
+uuid: 29819ef9-a6d3-43c1-a6c2-4493cc74cc0b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.country
+id: taxonomy_term.country.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: country
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

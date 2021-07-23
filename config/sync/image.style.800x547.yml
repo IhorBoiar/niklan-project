@@ -1,0 +1,30 @@
+uuid: 3ec7a567-bd67-4982-bede-6be32c7e499d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - basic_watermark
+name: 800x547
+label: 800x547
+effects:
+  cb5df597-ab26-4dce-83d8-e9f7c4860fa1:
+    uuid: cb5df597-ab26-4dce-83d8-e9f7c4860fa1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 547
+      anchor: center-center
+  f6cf52fe-b04c-4fc6-a142-4c33cf3f4bcf:
+    uuid: f6cf52fe-b04c-4fc6-a142-4c33cf3f4bcf
+    id: add_watermark
+    weight: 2
+    data:
+      watermark_path: /sites/default/files/watermark.png
+      apply_type: once
+      position: right-bottom
+      margins:
+        left: '25'
+        top: '25'
+        right: '25'
+        bottom: '20'

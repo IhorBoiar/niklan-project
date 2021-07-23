@@ -1,0 +1,18 @@
+uuid: d24be27b-4860-4ee0-a9a4-cb3b77ab2dd9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_article
+id: comment.comment_node_article.hostname
+field_name: hostname
+entity_type: comment
+bundle: comment_node_article
+label: 'Имя хоста'
+description: 'Имя хоста автора комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultHostname'
+settings: {  }
+field_type: string

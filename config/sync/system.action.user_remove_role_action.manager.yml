@@ -1,0 +1,14 @@
+uuid: 42c781f9-9881-4c1e-b6f3-58ca62858e18
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.manager
+  module:
+    - user
+id: user_remove_role_action.manager
+label: 'Удалить роль Manager из выбранных пользователей'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: manager

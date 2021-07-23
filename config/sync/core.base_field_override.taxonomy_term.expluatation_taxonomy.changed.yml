@@ -1,0 +1,18 @@
+uuid: 162c3290-58d5-4349-98f9-12c98229c0f5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.expluatation_taxonomy
+id: taxonomy_term.expluatation_taxonomy.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: expluatation_taxonomy
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

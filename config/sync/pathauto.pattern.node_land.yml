@@ -1,0 +1,21 @@
+uuid: 0858cec8-2469-4cdc-85a4-e9a199365be8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node_land
+label: 'Content - Земля'
+type: 'canonical_entities:node'
+pattern: '[node:content-type:machine-name]-[node:title]'
+selection_criteria:
+  -
+    id: node_type
+    bundles:
+      land: land
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: -7
+relationships: {  }

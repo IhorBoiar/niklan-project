@@ -1,0 +1,18 @@
+uuid: 53cac444-639a-4fba-a6ba-f91788a98212
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.realty_realization
+id: node.realty_realization.created
+field_name: created
+entity_type: node
+bundle: realty_realization
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

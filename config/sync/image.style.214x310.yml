@@ -1,0 +1,15 @@
+uuid: 5498cf6a-fda6-4d2d-b496-3390325592a7
+langcode: ru
+status: true
+dependencies: {  }
+name: 214x310
+label: 214x310
+effects:
+  6ed3b735-8db8-408e-a2e5-828bbd5dea40:
+    uuid: 6ed3b735-8db8-408e-a2e5-828bbd5dea40
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 214
+      height: 310
+      anchor: center-center

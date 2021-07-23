@@ -1,0 +1,21 @@
+uuid: b8378c54-dfe0-4ec9-9d23-0e548dbe1427
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_district
+field_name: field_district
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

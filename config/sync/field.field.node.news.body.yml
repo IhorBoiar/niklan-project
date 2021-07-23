@@ -1,0 +1,23 @@
+uuid: 11893b02-5a2b-4ce4-9866-62ee37a97a63
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.news
+  module:
+    - text
+id: node.news.body
+field_name: body
+entity_type: node
+bundle: news
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

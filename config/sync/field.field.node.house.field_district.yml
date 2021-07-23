@@ -1,0 +1,19 @@
+uuid: 60b476ea-5cb2-40c6-ae02-ea0ae458d8de
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_district
+    - node.type.house
+id: node.house.field_district
+field_name: field_district
+entity_type: node
+bundle: house
+label: 'Район Киева'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

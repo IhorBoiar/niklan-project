@@ -1,0 +1,25 @@
+uuid: 29d1003e-46ec-4670-8702-d88d5ce2de31
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.menu-menu-realty
+  module:
+    - system
+  theme:
+    - mayak
+id: mayak_menu_menu_menu_realty
+theme: mayak
+region: header
+weight: -12
+provider: null
+plugin: 'system_menu_block:menu-menu-realty'
+settings:
+  id: broken
+  label: Недвижимость
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

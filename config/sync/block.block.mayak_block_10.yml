@@ -1,0 +1,30 @@
+uuid: f398d809-ac50-48f1-b98f-6f8b214476f9
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:737711ba-a350-4cf2-8ef2-09bda9d64701'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_10
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:737711ba-a350-4cf2-8ef2-09bda9d64701'
+settings:
+  id: 'block_content:737711ba-a350-4cf2-8ef2-09bda9d64701'
+  label: 'СЕО текст коммерческая'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /commercial
+    negate: false

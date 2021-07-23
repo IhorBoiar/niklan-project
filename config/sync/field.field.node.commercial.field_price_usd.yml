@@ -1,0 +1,23 @@
+uuid: 8088b765-2923-4109-b5f9-95bea98fee26
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_usd
+    - node.type.commercial
+id: node.commercial.field_price_usd
+field_name: field_price_usd
+entity_type: node
+bundle: commercial
+label: Цена
+description: Доллары
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' $'
+field_type: integer

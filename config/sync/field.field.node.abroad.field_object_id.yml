@@ -1,0 +1,19 @@
+uuid: 6907ffb9-d04c-4af4-91c7-fb1f38fe58c1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_object_id
+    - node.type.abroad
+id: node.abroad.field_object_id
+field_name: field_object_id
+entity_type: node
+bundle: abroad
+label: 'ID объекта'
+description: 'ID объекта создается автоматически'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

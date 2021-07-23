@@ -1,0 +1,18 @@
+uuid: 84943353-1253-4202-8c10-be9f17bd7e2b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.land
+id: node.land.changed
+field_name: changed
+entity_type: node
+bundle: land
+label: Изменение
+description: 'Время последнего редактирования материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

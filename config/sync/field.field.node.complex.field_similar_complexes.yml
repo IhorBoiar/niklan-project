@@ -1,0 +1,70 @@
+uuid: 886c598e-c314-4611-81b3-c8266215c6e8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_similar_complexes
+    - node.type.complex
+    - views.view.other_novostroyki
+  module:
+    - viewfield
+id: node.complex.field_similar_complexes
+field_name: field_similar_complexes
+entity_type: node
+bundle: complex
+label: 'Похожие ЖК'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    token_help: ''
+    display_id: block_1
+    arguments: ''
+    items_to_display: ''
+    target_uuid: 07494cfd-773a-4b3c-abc0-dd8e037dbe07
+default_value_callback: ''
+settings:
+  force_default: false
+  allowed_views:
+    other_novostroyki: other_novostroyki
+    block: '0'
+    content: '0'
+    autocompletion_callbacks_nodes: '0'
+    redirect_404: '0'
+    words_autocomplete: '0'
+    slider: '0'
+    taxonomy_term: '0'
+    autocompletion_callbacks_users: '0'
+    webform_submissions: '0'
+    who_s_online: '0'
+    frontpage: '0'
+    watchdog: '0'
+    flats_complex_live: '0'
+    comment: '0'
+    team: '0'
+    news: '0'
+    novostroyki: '0'
+    who_s_new: '0'
+    vacancies: '0'
+    redirect: '0'
+    planning: '0'
+    search: '0'
+    user_admin_people: '0'
+    block_content: '0'
+    comments_recent: '0'
+    content_recent: '0'
+    files: '0'
+    construction_progress: '0'
+  allowed_display_types:
+    block: block
+    autocompletion_callback: '0'
+    default: '0'
+    page: '0'
+    attachment: '0'
+    embed: '0'
+    feed: '0'
+    entity_reference: '0'
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: viewfield

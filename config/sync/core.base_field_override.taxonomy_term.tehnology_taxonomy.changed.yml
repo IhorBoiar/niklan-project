@@ -1,0 +1,18 @@
+uuid: 3c366474-f897-4b4b-b259-208de3bbe4b4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tehnology_taxonomy
+id: taxonomy_term.tehnology_taxonomy.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: tehnology_taxonomy
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

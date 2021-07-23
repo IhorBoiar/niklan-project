@@ -1,0 +1,20 @@
+uuid: f113f3db-4e75-419d-ac17-68bea5453ee7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_rent
+field_name: comment_node_rent
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_rent
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

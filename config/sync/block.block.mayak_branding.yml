@@ -1,0 +1,25 @@
+uuid: c7b41faa-2963-4bb5-8044-56d08b7b3f9b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mayak
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: mayak_branding
+theme: mayak
+region: logo
+weight: -21
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

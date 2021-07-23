@@ -1,0 +1,18 @@
+uuid: c4f1ab69-ec83-4b6b-aaf8-aea7f06f18d5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_slider
+id: comment.comment_node_slider.subject
+field_name: subject
+entity_type: comment
+bundle: comment_node_slider
+label: Тема
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

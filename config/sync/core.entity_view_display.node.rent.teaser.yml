@@ -1,0 +1,164 @@
+uuid: 71780ee2-ecc3-4cab-a431-2aa07668889b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.rent.body
+    - field.field.node.rent.comment_node_rent
+    - field.field.node.rent.field_address
+    - field.field.node.rent.field_animals
+    - field.field.node.rent.field_area_kitchen
+    - field.field.node.rent.field_area_land
+    - field.field.node.rent.field_area_life
+    - field.field.node.rent.field_area_total
+    - field.field.node.rent.field_bathrooms
+    - field.field.node.rent.field_building_number
+    - field.field.node.rent.field_children
+    - field.field.node.rent.field_communications
+    - field.field.node.rent.field_condition_repair
+    - field.field.node.rent.field_crm_photo_null
+    - field.field.node.rent.field_currency
+    - field.field.node.rent.field_detached_inside_building
+    - field.field.node.rent.field_discount
+    - field.field.node.rent.field_district_street
+    - field.field.node.rent.field_electricity
+    - field.field.node.rent.field_entrance
+    - field.field.node.rent.field_extra
+    - field.field.node.rent.field_fast
+    - field.field.node.rent.field_furniture
+    - field.field.node.rent.field_garage
+    - field.field.node.rent.field_geolocation_data
+    - field.field.node.rent.field_guarded_house
+    - field.field.node.rent.field_heating
+    - field.field.node.rent.field_house_for_security
+    - field.field.node.rent.field_image
+    - field.field.node.rent.field_insurance_amount
+    - field.field.node.rent.field_internet
+    - field.field.node.rent.field_is_elite
+    - field.field.node.rent.field_kiev_region
+    - field.field.node.rent.field_land_or_without_land
+    - field.field.node.rent.field_locality
+    - field.field.node.rent.field_manager
+    - field.field.node.rent.field_material_build
+    - field.field.node.rent.field_metatag
+    - field.field.node.rent.field_metro
+    - field.field.node.rent.field_min_rent_period
+    - field.field.node.rent.field_new_or_secondary
+    - field.field.node.rent.field_no_export_in_feed
+    - field.field.node.rent.field_number_of_buildings
+    - field.field.node.rent.field_number_of_storeys
+    - field.field.node.rent.field_object_id
+    - field.field.node.rent.field_object_type
+    - field.field.node.rent.field_outcity
+    - field.field.node.rent.field_parking
+    - field.field.node.rent.field_price
+    - field.field.node.rent.field_price_eur
+    - field.field.node.rent.field_price_uah
+    - field.field.node.rent.field_price_usd
+    - field.field.node.rent.field_priority_of_show
+    - field.field.node.rent.field_property_type
+    - field.field.node.rent.field_protected_village
+    - field.field.node.rent.field_rooms
+    - field.field.node.rent.field_rubric_aviso
+    - field.field.node.rent.field_schemes
+    - field.field.node.rent.field_security
+    - field.field.node.rent.field_sewerage
+    - field.field.node.rent.field_sold
+    - field.field.node.rent.field_storey
+    - field.field.node.rent.field_telephony
+    - field.field.node.rent.field_video
+    - field.field.node.rent.field_water
+    - node.type.rent
+  module:
+    - text
+    - user
+id: node.rent.teaser
+targetEntityType: node
+bundle: rent
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  flag_liked:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_rent: true
+  field_address: true
+  field_animals: true
+  field_area_kitchen: true
+  field_area_land: true
+  field_area_life: true
+  field_area_total: true
+  field_bathrooms: true
+  field_building_number: true
+  field_children: true
+  field_communications: true
+  field_condition_repair: true
+  field_crm_photo_null: true
+  field_currency: true
+  field_detached_inside_building: true
+  field_discount: true
+  field_district_street: true
+  field_electricity: true
+  field_entrance: true
+  field_extra: true
+  field_fast: true
+  field_furniture: true
+  field_garage: true
+  field_geolocation_data: true
+  field_guarded_house: true
+  field_heating: true
+  field_house_for_security: true
+  field_image: true
+  field_insurance_amount: true
+  field_internet: true
+  field_is_elite: true
+  field_kiev_region: true
+  field_land_or_without_land: true
+  field_locality: true
+  field_manager: true
+  field_material_build: true
+  field_metatag: true
+  field_metro: true
+  field_min_rent_period: true
+  field_new_or_secondary: true
+  field_no_export_in_feed: true
+  field_number_of_buildings: true
+  field_number_of_storeys: true
+  field_object_id: true
+  field_object_type: true
+  field_outcity: true
+  field_parking: true
+  field_price: true
+  field_price_eur: true
+  field_price_uah: true
+  field_price_usd: true
+  field_priority_of_show: true
+  field_property_type: true
+  field_protected_village: true
+  field_rooms: true
+  field_rubric_aviso: true
+  field_schemes: true
+  field_security: true
+  field_sewerage: true
+  field_sold: true
+  field_storey: true
+  field_telephony: true
+  field_video: true
+  field_water: true
+  langcode: true

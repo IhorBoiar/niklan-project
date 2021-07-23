@@ -1,0 +1,62 @@
+uuid: 108a7ef0-8fe3-44ae-b5b7-13d9d4e5f655
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.country.field_image
+    - field.field.taxonomy_term.country.field_metatag
+    - taxonomy.vocabulary.country
+  module:
+    - metatag
+    - path
+    - text
+id: taxonomy_term.country.default
+targetEntityType: taxonomy_term
+bundle: country
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_metatag:
+    weight: 101
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_image: true

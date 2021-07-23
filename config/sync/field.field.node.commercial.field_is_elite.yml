@@ -1,0 +1,23 @@
+uuid: 3f41d0b1-67ff-4f92-9add-131258fd920e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_elite
+    - node.type.commercial
+id: node.commercial.field_is_elite
+field_name: field_is_elite
+entity_type: node
+bundle: commercial
+label: Элитное
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Элитное '
+  off_label: ''
+field_type: boolean

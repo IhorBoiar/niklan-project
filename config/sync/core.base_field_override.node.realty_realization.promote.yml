@@ -1,0 +1,22 @@
+uuid: fddb3050-80a3-40e6-a709-17509ed87e72
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.realty_realization
+id: node.realty_realization.promote
+field_name: promote
+entity_type: node
+bundle: realty_realization
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

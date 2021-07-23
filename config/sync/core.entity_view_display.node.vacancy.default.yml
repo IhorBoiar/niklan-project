@@ -1,0 +1,43 @@
+uuid: e8aeca22-709a-464f-8d0d-c5c11ea1ebba
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_vacancy.default
+    - field.field.node.vacancy.body
+    - field.field.node.vacancy.comment_node_vacancy
+    - field.field.node.vacancy.field_metatag
+    - node.type.vacancy
+  module:
+    - comment
+    - text
+    - user
+id: node.vacancy.default
+targetEntityType: node
+bundle: vacancy
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_vacancy:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: 03fe2999-79a9-4baf-bfc2-34d1ef8e8d03
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_slider
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: comment.comment_node_slider
+target_entity_type_id: comment
+target_bundle: comment_node_slider
+default_langcode: site_default
+language_alterable: false

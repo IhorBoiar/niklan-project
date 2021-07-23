@@ -1,0 +1,19 @@
+uuid: be49c9d1-95d7-4906-960d-97cc4f938edb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_detached_inside_building
+    - node.type.rent
+id: node.rent.field_detached_inside_building
+field_name: field_detached_inside_building
+entity_type: node
+bundle: rent
+label: 'Отдельно стоящее здание (или в жилом доме)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

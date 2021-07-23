@@ -1,0 +1,23 @@
+uuid: e1b044f5-c6e6-4387-9d1e-337ef0822f33
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_elite
+    - node.type.land
+id: node.land.field_is_elite
+field_name: field_is_elite
+entity_type: node
+bundle: land
+label: Элитное
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Элитное '
+  off_label: ''
+field_type: boolean

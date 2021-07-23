@@ -1,0 +1,21 @@
+uuid: 93d10750-05cf-4364-b8ff-796461331651
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Full HTML без редактора'
+format: full_html_without_editor
+weight: 0
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72

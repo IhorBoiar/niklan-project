@@ -1,0 +1,19 @@
+uuid: a7856d58-a7d0-4198-95fd-baf652b7afb9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parking
+    - node.type.rent
+id: node.rent.field_parking
+field_name: field_parking
+entity_type: node
+bundle: rent
+label: Паркоместа
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

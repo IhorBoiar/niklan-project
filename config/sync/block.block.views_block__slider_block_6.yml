@@ -1,0 +1,29 @@
+uuid: a61a3d32-44a3-499e-bcfc-96c8f29fb03d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.slider
+  module:
+    - system
+    - views
+  theme:
+    - mayak
+id: views_block__slider_block_6
+theme: mayak
+region: slider
+weight: -14
+provider: null
+plugin: 'views_block:slider-block_6'
+settings:
+  id: 'views_block:slider-block_6'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /land
+    negate: false

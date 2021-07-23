@@ -1,0 +1,19 @@
+uuid: 200043b7-0153-4bff-87b5-4de0ad0e9309
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_discount
+    - node.type.land
+id: node.land.field_discount
+field_name: field_discount
+entity_type: node
+bundle: land
+label: Скидка
+description: '<b>Например:</b> СКИДКА - 20%'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

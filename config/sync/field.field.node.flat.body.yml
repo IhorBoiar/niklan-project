@@ -1,0 +1,23 @@
+uuid: f48c8015-4b6f-4ba9-9091-48c6a8904480
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.flat
+  module:
+    - text
+id: node.flat.body
+field_name: body
+entity_type: node
+bundle: flat
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

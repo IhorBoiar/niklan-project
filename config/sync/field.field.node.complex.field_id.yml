@@ -1,0 +1,23 @@
+uuid: 024b0e05-5720-41b0-973e-0b93183b4f90
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_id
+    - node.type.complex
+id: node.complex.field_id
+field_name: field_id
+entity_type: node
+bundle: complex
+label: ID
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

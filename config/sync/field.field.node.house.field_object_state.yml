@@ -1,0 +1,19 @@
+uuid: 66f176e7-4e6c-4ef6-b752-bae45989c5b0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_object_state
+    - node.type.house
+id: node.house.field_object_state
+field_name: field_object_state
+entity_type: node
+bundle: house
+label: 'Состояние объекта'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

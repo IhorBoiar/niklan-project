@@ -1,0 +1,19 @@
+uuid: a73e7271-811e-4887-8d37-1085df4e4f95
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_object_id
+    - node.type.land
+id: node.land.field_object_id
+field_name: field_object_id
+entity_type: node
+bundle: land
+label: 'ID объекта'
+description: 'ID объекта создается автоматически'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

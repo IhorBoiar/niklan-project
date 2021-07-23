@@ -1,0 +1,64 @@
+uuid: 803c9c6f-aa25-437c-8e51-7dd38511a48d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.realty_realization.body
+    - field.field.node.realty_realization.comment_node_realty_realization
+    - field.field.node.realty_realization.field_e_mail
+    - field.field.node.realty_realization.field_image
+    - field.field.node.realty_realization.field_metatag
+    - field.field.node.realty_realization.field_phone_one
+    - node.type.realty_realization
+  module:
+    - image
+    - metatag
+    - text
+    - user
+id: node.realty_realization.default
+targetEntityType: node
+bundle: realty_realization
+mode: default
+content:
+  body:
+    label: inline
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_e_mail:
+    label: inline
+    weight: 1
+    type: email_mailto
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: inline
+    weight: 3
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_metatag:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_phone_one:
+    label: inline
+    weight: 0
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_realty_realization: true
+  langcode: true
+  links: true

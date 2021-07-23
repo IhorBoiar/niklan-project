@@ -1,0 +1,26 @@
+uuid: d16a0795-8b9b-4bf4-a05f-256d4953c792
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_district_street
+    - node.type.land
+    - taxonomy.vocabulary.district_strret
+id: node.land.field_district_street
+field_name: field_district_street
+entity_type: node
+bundle: land
+label: 'Район - Улица'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      district_strret: district_strret
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

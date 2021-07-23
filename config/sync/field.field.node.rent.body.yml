@@ -1,0 +1,23 @@
+uuid: dead6865-da1c-4529-9eb0-2780a2563e14
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rent
+  module:
+    - text
+id: node.rent.body
+field_name: body
+entity_type: node
+bundle: rent
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

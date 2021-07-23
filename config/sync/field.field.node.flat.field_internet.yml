@@ -1,0 +1,19 @@
+uuid: 0553848a-754f-40c8-acdb-26a832b8d06a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_internet
+    - node.type.flat
+id: node.flat.field_internet
+field_name: field_internet
+entity_type: node
+bundle: flat
+label: Интернет
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

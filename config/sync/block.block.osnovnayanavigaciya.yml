@@ -1,0 +1,25 @@
+uuid: c79d0fa3-2a34-4b50-bf2b-e941e0a08d9d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mayak
+id: osnovnayanavigaciya
+theme: mayak
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основная навигация'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

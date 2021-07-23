@@ -1,0 +1,30 @@
+uuid: 50e613d4-a3e3-4820-8955-9dd464f889fc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_complex
+    - node.type.complex
+    - node.type.construction_progress
+id: node.construction_progress.field_complex
+field_name: field_complex
+entity_type: node
+bundle: construction_progress
+label: 'Жилой комплекс'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    behaviors:
+      views-select-list:
+        status: 0
+    sort:
+      field: _none
+      direction: ASC
+    target_bundles:
+      complex: complex
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: 896a1880-8c23-413d-9e6e-22601b7b9689
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.menu-socials
+  module:
+    - system
+  theme:
+    - mayak
+id: mayak_menu_menu_socials
+theme: mayak
+region: top
+weight: -21
+provider: null
+plugin: 'system_menu_block:menu-socials'
+settings:
+  id: broken
+  label: 'Социальные сети'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

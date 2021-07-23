@@ -1,0 +1,8 @@
+uuid: 4885afad-5d80-4bac-ae56-e0eb27ceca0f
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Киевская область'
+vid: kiev_region
+description: ''
+weight: 0

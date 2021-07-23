@@ -1,0 +1,16 @@
+uuid: 64e59c63-a98b-449b-9e21-4b6aee649ab2
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: Аренда
+type: rent
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

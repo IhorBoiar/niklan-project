@@ -1,0 +1,20 @@
+uuid: c0b35eb2-3496-47c6-8271-f391b1823e76
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_page
+id: comment.comment_node_page.uid
+field_name: uid
+entity_type: comment
+bundle: comment_node_page
+label: 'ID Пользователя'
+description: 'ID пользователя автора комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

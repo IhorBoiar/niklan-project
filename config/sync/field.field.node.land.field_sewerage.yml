@@ -1,0 +1,19 @@
+uuid: e7b2a7f9-3c6f-4174-be87-a897f7e3f402
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sewerage
+    - node.type.land
+id: node.land.field_sewerage
+field_name: field_sewerage
+entity_type: node
+bundle: land
+label: Канализация
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: 23025085-6bae-47cc-9c50-3d49b8e41387
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:66e1d974-79ff-4517-a0d7-c3368e7e0dfe'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_11
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:66e1d974-79ff-4517-a0d7-c3368e7e0dfe'
+settings:
+  id: 'block_content:66e1d974-79ff-4517-a0d7-c3368e7e0dfe'
+  label: 'СЕО текст на странице земли'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /land
+    negate: false

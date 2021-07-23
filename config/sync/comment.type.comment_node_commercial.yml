@@ -1,0 +1,8 @@
+uuid: 93d40da3-f7cc-4838-aec0-bdafb028fd27
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_commercial
+label: 'Коммерческая comment'
+target_entity_type_id: node
+description: null

@@ -1,0 +1,14 @@
+uuid: 08384b28-1524-480e-85c2-1446ab33559a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.eugenia
+  module:
+    - user
+id: user_add_role_action.eugenia
+label: 'Добавьте роль Eugenia выбранным пользователям'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: eugenia

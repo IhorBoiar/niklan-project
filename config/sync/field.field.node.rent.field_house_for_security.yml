@@ -1,0 +1,19 @@
+uuid: b407257c-15b6-45bb-9e8b-7c5f58e29c47
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_house_for_security
+    - node.type.rent
+id: node.rent.field_house_for_security
+field_name: field_house_for_security
+entity_type: node
+bundle: rent
+label: 'Дом для охраны'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

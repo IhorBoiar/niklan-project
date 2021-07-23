@@ -1,0 +1,20 @@
+uuid: 7f8b1d89-617a-4c15-884e-9b3e4c29f8fc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_webform
+field_name: comment_node_webform
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_webform
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

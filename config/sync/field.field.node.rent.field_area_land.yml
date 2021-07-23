@@ -1,0 +1,23 @@
+uuid: b54b173f-0732-4084-87c9-24a4a76aa04f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_area_land
+    - node.type.rent
+id: node.rent.field_area_land
+field_name: field_area_land
+entity_type: node
+bundle: rent
+label: 'Площадь участка'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' сот.'
+field_type: decimal

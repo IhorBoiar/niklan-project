@@ -1,0 +1,48 @@
+uuid: 0b1d47a7-9dc7-4bc4-a547-41e21d202845
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_department
+    - field.field.user.user.field_email
+    - field.field.user.user.field_image
+    - field.field.user.user.field_name
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_position
+    - field.field.user.user.field_skype
+    - field.field.user.user.field_user_priority
+    - field.field.user.user.field_viber
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  field_department: true
+  field_email: true
+  field_image: true
+  field_name: true
+  field_phone: true
+  field_position: true
+  field_skype: true
+  field_user_priority: true
+  field_viber: true
+  langcode: true
+  member_for: true

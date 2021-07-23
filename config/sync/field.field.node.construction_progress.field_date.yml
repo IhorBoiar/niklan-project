@@ -1,0 +1,21 @@
+uuid: aa4b5bb6-4a95-40ba-a943-5500d078c9dc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.construction_progress
+  module:
+    - datetime
+id: node.construction_progress.field_date
+field_name: field_date
+entity_type: node
+bundle: construction_progress
+label: Дата
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

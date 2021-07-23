@@ -1,0 +1,415 @@
+uuid: f6bd3198-1a0e-4c14-bc60-bddf1c259547
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.complex.body
+    - field.field.node.complex.comment_node_complex
+    - field.field.node.complex.field_budget
+    - field.field.node.complex.field_ceiling_height
+    - field.field.node.complex.field_closed_territory
+    - field.field.node.complex.field_complex_tabs
+    - field.field.node.complex.field_complexes_beside
+    - field.field.node.complex.field_construction_progress
+    - field.field.node.complex.field_currency
+    - field.field.node.complex.field_date_text
+    - field.field.node.complex.field_expluatation
+    - field.field.node.complex.field_flat_count
+    - field.field.node.complex.field_geolocation_data
+    - field.field.node.complex.field_heating_home
+    - field.field.node.complex.field_houses_builder
+    - field.field.node.complex.field_houses_counte
+    - field.field.node.complex.field_houses_tehnology
+    - field.field.node.complex.field_housing_class
+    - field.field.node.complex.field_id
+    - field.field.node.complex.field_image
+    - field.field.node.complex.field_installment
+    - field.field.node.complex.field_insulation
+    - field.field.node.complex.field_interior_decoration
+    - field.field.node.complex.field_metatag
+    - field.field.node.complex.field_number_of_elevators
+    - field.field.node.complex.field_object_id
+    - field.field.node.complex.field_parking_houses
+    - field.field.node.complex.field_price
+    - field.field.node.complex.field_price_eur
+    - field.field.node.complex.field_price_from
+    - field.field.node.complex.field_price_uah
+    - field.field.node.complex.field_price_usd
+    - field.field.node.complex.field_priority_of_show
+    - field.field.node.complex.field_roommate
+    - field.field.node.complex.field_shares_news
+    - field.field.node.complex.field_similar_complexes
+    - field.field.node.complex.field_storey_count_text
+    - field.field.node.complex.field_street
+    - field.field.node.complex.field_video
+    - field.field.node.complex.field_view_flats
+    - field.field.node.complex.field_view_planning
+    - field.field.node.complex.field_wall
+    - image.style.thumbnail
+    - node.type.complex
+  module:
+    - bigint
+    - bootstrap_horizontal_tabs
+    - comment
+    - image
+    - metatag
+    - path
+    - text
+    - viewfield
+    - youtube
+id: node.complex.default
+targetEntityType: node
+bundle: complex
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  comment_node_complex:
+    type: comment_default
+    weight: 24
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_budget:
+    weight: 30
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_ceiling_height:
+    weight: 16
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_closed_territory:
+    weight: 22
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_complex_tabs:
+    weight: 39
+    settings: {  }
+    third_party_settings: {  }
+    type: bootstrap_horizontal_tabs
+    region: content
+  field_complexes_beside:
+    weight: 45
+    type: viewfield_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_construction_progress:
+    weight: 43
+    type: viewfield_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_currency:
+    weight: 35
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date_text:
+    weight: 11
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_expluatation:
+    weight: 29
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_flat_count:
+    weight: 8
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_geolocation_data:
+    weight: 40
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_heating_home:
+    weight: 15
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_houses_builder:
+    weight: 28
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_houses_counte:
+    weight: 7
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_houses_tehnology:
+    weight: 10
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_housing_class:
+    weight: 5
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_id:
+    weight: 1
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: image_image
+    weight: 26
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_installment:
+    weight: 23
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_insulation:
+    weight: 14
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_interior_decoration:
+    weight: 17
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_metatag:
+    weight: 50
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_number_of_elevators:
+    weight: 19
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_object_id:
+    weight: 3
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_parking_houses:
+    weight: 21
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_price:
+    weight: 34
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_price_eur:
+    weight: 37
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_price_from:
+    weight: 33
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_price_uah:
+    weight: 38
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: bigint
+    region: content
+  field_price_usd:
+    weight: 36
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_priority_of_show:
+    weight: 47
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_roommate:
+    weight: 31
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_shares_news:
+    weight: 46
+    type: viewfield_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_similar_complexes:
+    weight: 44
+    type: viewfield_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_storey_count_text:
+    weight: 9
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_street:
+    weight: 27
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_video:
+    weight: 25
+    type: youtube
+    settings:
+      placeholder_url: ''
+    third_party_settings: {  }
+    region: content
+  field_view_flats:
+    weight: 42
+    type: viewfield_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_view_planning:
+    weight: 41
+    type: viewfield_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_wall:
+    weight: 13
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 32
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 18
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 49
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 20
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 48
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

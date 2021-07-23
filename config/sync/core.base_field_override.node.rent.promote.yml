@@ -1,0 +1,22 @@
+uuid: 9bb7472e-b8a1-4929-8e62-df9026e0377c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.rent
+id: node.rent.promote
+field_name: promote
+entity_type: node
+bundle: rent
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

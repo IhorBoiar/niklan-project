@@ -1,0 +1,20 @@
+uuid: dcfe0eda-d000-492a-aa02-91b73701967b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_viber
+  module:
+    - user
+id: user.user.field_viber
+field_name: field_viber
+entity_type: user
+bundle: user
+label: Viber
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

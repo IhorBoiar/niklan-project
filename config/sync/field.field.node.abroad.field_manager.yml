@@ -1,0 +1,29 @@
+uuid: 57911ec0-81d1-4a71-862e-faf861ace89c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manager
+    - node.type.abroad
+  content:
+    - 'user:user:312e5c19-3cfe-4f08-8cbf-6111d2617ce9'
+id: node.abroad.field_manager
+field_name: field_manager
+entity_type: node
+bundle: abroad
+label: 'Менеджер объекта'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 312e5c19-3cfe-4f08-8cbf-6111d2617ce9
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: team
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

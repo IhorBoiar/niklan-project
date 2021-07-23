@@ -1,0 +1,23 @@
+uuid: b19d5854-73e6-465a-9a21-c1d2dc22e330
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.construction_progress
+  module:
+    - text
+id: node.construction_progress.body
+field_name: body
+entity_type: node
+bundle: construction_progress
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

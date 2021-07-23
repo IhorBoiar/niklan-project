@@ -1,0 +1,21 @@
+uuid: 577efdc0-3c54-4937-8f88-44cf94a079f6
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.realty_realization
+  module:
+    - metatag
+id: node.realty_realization.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: realty_realization
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

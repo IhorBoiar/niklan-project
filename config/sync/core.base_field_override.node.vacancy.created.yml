@@ -1,0 +1,18 @@
+uuid: 6d0cc114-0c52-4dab-9145-1bbe9cb4bbb0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.vacancy
+id: node.vacancy.created
+field_name: created
+entity_type: node
+bundle: vacancy
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

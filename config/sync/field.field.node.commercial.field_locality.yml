@@ -1,0 +1,26 @@
+uuid: 428bc3e0-ab77-443c-84e9-1f93d3e179d6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_locality
+    - node.type.commercial
+    - taxonomy.vocabulary.locality
+id: node.commercial.field_locality
+field_name: field_locality
+entity_type: node
+bundle: commercial
+label: Местность
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      locality: locality
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

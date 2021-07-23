@@ -1,0 +1,40 @@
+uuid: 84b37de9-3b73-45ae-a215-352d7234e7ca
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.commercial
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: node.commercial.field_image
+field_name: field_image
+entity_type: node
+bundle: commercial
+label: Изображение
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: commercial
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  title_field: true
+  default_image: 0
+  alt_field_required: true
+  title_field_required: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

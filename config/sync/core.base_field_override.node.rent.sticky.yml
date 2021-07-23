@@ -1,0 +1,22 @@
+uuid: ca19a80f-4a66-4c88-82b5-87c879030c02
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.rent
+id: node.rent.sticky
+field_name: sticky
+entity_type: node
+bundle: rent
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

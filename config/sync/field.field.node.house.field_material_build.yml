@@ -1,0 +1,19 @@
+uuid: 7690d091-d4bd-4805-bbc5-fd9f92ba4140
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_material_build
+    - node.type.house
+id: node.house.field_material_build
+field_name: field_material_build
+entity_type: node
+bundle: house
+label: 'Материал постройки'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

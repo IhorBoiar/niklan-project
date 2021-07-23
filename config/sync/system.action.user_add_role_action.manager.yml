@@ -1,0 +1,14 @@
+uuid: 44d0b3d6-a069-4a0a-8096-3bac7d6d08c7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.manager
+  module:
+    - user
+id: user_add_role_action.manager
+label: 'Добавьте роль Manager выбранным пользователям'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: manager

@@ -1,0 +1,19 @@
+uuid: 9baa0587-18c9-4318-ac43-bbe80ee39213
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_internet
+    - node.type.rent
+id: node.rent.field_internet
+field_name: field_internet
+entity_type: node
+bundle: rent
+label: Интернет
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

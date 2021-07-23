@@ -1,0 +1,26 @@
+uuid: c86297c1-2b03-4789-ab47-4b91a6e0d3b9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mayak
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: mayak_breadcrumbs
+theme: mayak
+region: content
+weight: -19
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true

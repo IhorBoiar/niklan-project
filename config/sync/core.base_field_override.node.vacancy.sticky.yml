@@ -1,0 +1,22 @@
+uuid: 8e649c5b-9c0d-4d3b-a01a-ac1f63bb3527
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.vacancy
+id: node.vacancy.sticky
+field_name: sticky
+entity_type: node
+bundle: vacancy
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

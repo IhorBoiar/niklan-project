@@ -1,0 +1,21 @@
+uuid: 89fc4f69-f71a-4460-a6e7-320852cc225b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node_rent
+label: 'Content - Аренда'
+type: 'canonical_entities:node'
+pattern: '[node:content-type:machine-name]-[node:title]'
+selection_criteria:
+  -
+    id: node_type
+    bundles:
+      rent: rent
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: -10
+relationships: {  }

@@ -1,0 +1,22 @@
+uuid: d2f1550f-087d-40cc-92a7-fc1737842eb1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mayak
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mayak_help
+theme: mayak
+region: content
+weight: -18
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  provider: help
+  label_display: '0'
+visibility: {  }

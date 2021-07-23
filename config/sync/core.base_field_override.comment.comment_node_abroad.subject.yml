@@ -1,0 +1,18 @@
+uuid: 1c3d2c64-3290-4dd2-894f-a6c06dcec5ff
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_abroad
+id: comment.comment_node_abroad.subject
+field_name: subject
+entity_type: comment
+bundle: comment_node_abroad
+label: Тема
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 108e3c1c-ccef-413f-8886-240797736a93
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.complex
+  module:
+    - youtube
+id: node.complex.field_video
+field_name: field_video
+entity_type: node
+bundle: complex
+label: Видео
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

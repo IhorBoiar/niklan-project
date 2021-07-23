@@ -1,0 +1,15 @@
+uuid: 8578e48e-8d98-4daa-a33e-4ed97a7826d5
+langcode: ru
+status: true
+dependencies: {  }
+name: 110x80
+label: 110x80
+effects:
+  c89482df-0162-4b11-a24c-ae6cc2891e64:
+    uuid: c89482df-0162-4b11-a24c-ae6cc2891e64
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 110
+      height: 80
+      anchor: center-center

@@ -1,0 +1,25 @@
+uuid: 480db73c-712e-47f0-803f-1652ec9ce3b9
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38407dc6-ad5d-4914-a871-1b9de7a35edc'
+  module:
+    - block_content
+  theme:
+    - mayak
+id: mayak_block_3
+theme: mayak
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:38407dc6-ad5d-4914-a871-1b9de7a35edc'
+settings:
+  id: 'block_content:38407dc6-ad5d-4914-a871-1b9de7a35edc'
+  label: 'Контакты в футере'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

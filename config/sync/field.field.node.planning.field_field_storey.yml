@@ -1,0 +1,21 @@
+uuid: e34f0107-5993-48b2-a240-576b95ebfbbf
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_storey
+    - node.type.planning
+  module:
+    - options
+id: node.planning.field_field_storey
+field_name: field_field_storey
+entity_type: node
+bundle: planning
+label: Этаж
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

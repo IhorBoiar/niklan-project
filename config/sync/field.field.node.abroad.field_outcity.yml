@@ -1,0 +1,23 @@
+uuid: 9f32378f-e332-4043-9ab1-0679b604698c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_outcity
+    - node.type.abroad
+id: node.abroad.field_outcity
+field_name: field_outcity
+entity_type: node
+bundle: abroad
+label: 'В пригороде'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'В пригороде'
+  off_label: ''
+field_type: boolean

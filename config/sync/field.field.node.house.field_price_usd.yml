@@ -1,0 +1,23 @@
+uuid: 81340d4a-95b9-4f2e-a486-d885ae0139f2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_usd
+    - node.type.house
+id: node.house.field_price_usd
+field_name: field_price_usd
+entity_type: node
+bundle: house
+label: Цена
+description: Доллары
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' $'
+field_type: integer

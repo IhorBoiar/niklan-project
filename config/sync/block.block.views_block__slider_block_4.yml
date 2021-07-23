@@ -1,0 +1,29 @@
+uuid: f1b1c270-056b-47a5-a94e-521f52dca826
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.slider
+  module:
+    - system
+    - views
+  theme:
+    - mayak
+id: views_block__slider_block_4
+theme: mayak
+region: slider
+weight: -16
+provider: null
+plugin: 'views_block:slider-block_4'
+settings:
+  id: 'views_block:slider-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /houses
+    negate: false

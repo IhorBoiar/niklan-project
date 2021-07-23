@@ -1,0 +1,18 @@
+uuid: 7d3acde7-9b93-4a0f-9227-b4c4060bea3a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_news
+id: comment.comment_node_news.changed
+field_name: changed
+entity_type: comment
+bundle: comment_node_news
+label: Изменение
+description: 'Время последнего редактирования комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

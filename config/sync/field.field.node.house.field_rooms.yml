@@ -1,0 +1,23 @@
+uuid: 4fe7eca5-a70c-469b-b4c5-661aef2c025e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rooms
+    - node.type.house
+id: node.house.field_rooms
+field_name: field_rooms
+entity_type: node
+bundle: house
+label: 'Количество комнат'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

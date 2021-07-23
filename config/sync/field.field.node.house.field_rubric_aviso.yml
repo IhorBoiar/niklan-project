@@ -1,0 +1,19 @@
+uuid: 4f6714ee-9f54-4540-8d67-6e4b87887f6e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rubric_aviso
+    - node.type.house
+id: node.house.field_rubric_aviso
+field_name: field_rubric_aviso
+entity_type: node
+bundle: house
+label: 'Рубрика aviso'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

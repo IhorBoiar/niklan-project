@@ -1,0 +1,23 @@
+uuid: 971b15f8-a4bf-4d12-81e9-82b7aaa2d964
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2lo0hIx3RV2AgnE1fkdPLRQcYWGamMyouBoe2OiYk24
+id: search_block
+label: 'Search Block'
+selector: '#block-form-search-page-1 .form-text'
+minChar: 3
+autoSubmit: true
+autoRedirect: true
+maxSuggestions: 10
+noResultLabel: 'Не найдено результатов для [search-phrase]. Нажмите, чтобы выполнить полный поиск.'
+noResultValue: '[search-phrase]'
+noResultLink: ''
+moreResultsLabel: 'Посмотреть все результаты поиска [search-phrase].'
+moreResultsValue: '[search-phrase]'
+moreResultsLink: ''
+source: 'autocompletion_callbacks_nodes::nodes_autocompletion_callback'
+theme: basic-blue.css
+editable: true
+deletable: false

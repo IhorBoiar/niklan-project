@@ -1,0 +1,19 @@
+uuid: 265d866b-34c3-4182-83a0-183463569af2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_district
+    - node.type.land
+id: node.land.field_district
+field_name: field_district
+entity_type: node
+bundle: land
+label: 'Район Киева'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

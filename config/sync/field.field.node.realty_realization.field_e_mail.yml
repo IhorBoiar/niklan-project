@@ -1,0 +1,19 @@
+uuid: 88f1eb52-4343-4220-a900-0c38a32d8474
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_mail
+    - node.type.realty_realization
+id: node.realty_realization.field_e_mail
+field_name: field_e_mail
+entity_type: node
+bundle: realty_realization
+label: E-mail
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

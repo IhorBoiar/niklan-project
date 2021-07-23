@@ -1,0 +1,23 @@
+uuid: 2f18f009-c69f-4918-b76b-13166fcf62f8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_currency
+    - node.type.land
+  module:
+    - options
+id: node.land.field_currency
+field_name: field_currency
+entity_type: node
+bundle: land
+label: Валюта
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

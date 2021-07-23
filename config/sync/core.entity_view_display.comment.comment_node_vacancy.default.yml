@@ -1,0 +1,28 @@
+uuid: c3cff4d7-7dc8-461d-be8c-9f9071e414c3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_vacancy
+    - field.field.comment.comment_node_vacancy.comment_body
+  module:
+    - text
+id: comment.comment_node_vacancy.default
+targetEntityType: comment
+bundle: comment_node_vacancy
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

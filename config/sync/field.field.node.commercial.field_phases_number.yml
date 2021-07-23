@@ -1,0 +1,23 @@
+uuid: 49953b93-f3b6-4500-8a49-775f1c0d3fbf
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phases_number
+    - node.type.commercial
+id: node.commercial.field_phases_number
+field_name: field_phases_number
+entity_type: node
+bundle: commercial
+label: 'Количество фаз'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

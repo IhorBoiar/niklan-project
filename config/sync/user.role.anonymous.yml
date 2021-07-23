@@ -1,0 +1,20 @@
+uuid: eb36f939-ca8a-476f-94bb-143774416c7d
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'create realty_realization content'
+  - 'flag liked'
+  - 'search content'
+  - 'unflag liked'
+  - 'use Search Autocomplete'
+  - 'use search autocomplete'
+  - 'view post access counter'

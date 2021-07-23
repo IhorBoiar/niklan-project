@@ -1,0 +1,18 @@
+uuid: 3b504f9d-8c41-4ff3-bd5f-cf5e57c7e493
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.construction_progress
+id: node.construction_progress.title
+field_name: title
+entity_type: node
+bundle: construction_progress
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

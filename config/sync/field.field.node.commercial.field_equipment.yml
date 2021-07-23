@@ -1,0 +1,19 @@
+uuid: e9694730-bd80-4b12-b7f5-333f3a7751a0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_equipment
+    - node.type.commercial
+id: node.commercial.field_equipment
+field_name: field_equipment
+entity_type: node
+bundle: commercial
+label: Оборудование
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

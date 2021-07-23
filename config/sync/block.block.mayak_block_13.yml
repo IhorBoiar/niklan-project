@@ -1,0 +1,30 @@
+uuid: a54ab15f-e317-4c0d-8b71-44f58e694bdf
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:55cc760c-185a-4703-95cb-02f7a269ba7e'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_13
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:55cc760c-185a-4703-95cb-02f7a269ba7e'
+settings:
+  id: 'block_content:55cc760c-185a-4703-95cb-02f7a269ba7e'
+  label: 'СЕО текст зарубежная'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /abroad/countries
+    negate: false

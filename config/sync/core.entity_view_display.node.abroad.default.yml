@@ -1,0 +1,396 @@
+uuid: d364af16-ee7f-4c20-a2fb-0e2de6ad4f84
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.abroad.body
+    - field.field.node.abroad.comment_node_abroad
+    - field.field.node.abroad.field_area_kitchen
+    - field.field.node.abroad.field_area_land
+    - field.field.node.abroad.field_area_life
+    - field.field.node.abroad.field_area_total
+    - field.field.node.abroad.field_country
+    - field.field.node.abroad.field_currency
+    - field.field.node.abroad.field_discount
+    - field.field.node.abroad.field_fast
+    - field.field.node.abroad.field_geolocation_data
+    - field.field.node.abroad.field_image
+    - field.field.node.abroad.field_is_elite
+    - field.field.node.abroad.field_manager
+    - field.field.node.abroad.field_material_build
+    - field.field.node.abroad.field_new_or_secondary
+    - field.field.node.abroad.field_number_of_storeys
+    - field.field.node.abroad.field_object_id
+    - field.field.node.abroad.field_object_type
+    - field.field.node.abroad.field_outcity
+    - field.field.node.abroad.field_price
+    - field.field.node.abroad.field_price_eur
+    - field.field.node.abroad.field_price_uah
+    - field.field.node.abroad.field_price_usd
+    - field.field.node.abroad.field_priority_of_show
+    - field.field.node.abroad.field_rooms
+    - field.field.node.abroad.field_rubric_aviso
+    - field.field.node.abroad.field_schemes
+    - field.field.node.abroad.field_sold
+    - field.field.node.abroad.field_storey
+    - field.field.node.abroad.field_video
+    - image.style.800x547
+    - node.type.abroad
+  module:
+    - bigint
+    - colorbox
+    - field_group
+    - shs
+    - text
+    - user
+    - youtube
+third_party_settings:
+  field_group:
+    group_characteristics:
+      children:
+        - group_center
+        - group_right
+      parent_name: ''
+      weight: 7
+      label: Характеристики
+      format_settings:
+        formatter: open
+        id: ''
+        classes: 'group-characteristics field-group-div'
+        description: ''
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        element: div
+      format_type: html_element
+      region: content
+    group_left:
+      children:
+        - field_object_id
+        - field_object_type
+        - field_price_usd
+        - field_price_eur
+        - field_price_uah
+        - field_country
+        - field_rooms
+        - field_area_total
+        - field_area_life
+        - field_area_kitchen
+        - field_area_land
+        - field_storey
+        - field_number_of_storeys
+        - field_material_build
+        - field_new_or_secondary
+        - field_outcity
+      parent_name: ''
+      weight: 3
+      label: Left
+      format_settings:
+        formatter: open
+        id: ''
+        classes: group-left
+        description: ''
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        element: div
+      format_type: html_element
+      region: content
+    group_right:
+      children:
+        - field_manager
+      parent_name: group_characteristics
+      weight: 44
+      label: Right
+      format_settings:
+        formatter: open
+        id: ''
+        classes: group-right
+        description: ''
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        element: div
+      format_type: html_element
+      region: content
+    group_center:
+      children:
+        - body
+        - field_video
+      parent_name: group_characteristics
+      weight: 43
+      label: Center
+      format_settings:
+        formatter: open
+        id: ''
+        classes: 'group-center field-group-div'
+        description: ''
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        element: div
+      format_type: html_element
+      region: content
+id: node.abroad.default
+targetEntityType: node
+bundle: abroad
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_area_kitchen:
+    label: inline
+    weight: 55
+    type: number_decimal
+    settings:
+      decimal_separator: .
+      prefix_suffix: true
+      scale: 2
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_area_land:
+    label: inline
+    weight: 56
+    type: number_decimal
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_area_life:
+    label: inline
+    weight: 54
+    type: number_decimal
+    settings:
+      decimal_separator: .
+      prefix_suffix: true
+      scale: 2
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_area_total:
+    label: inline
+    weight: 53
+    type: number_decimal
+    settings:
+      decimal_separator: .
+      prefix_suffix: true
+      scale: 2
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_country:
+    type: entity_reference_shs
+    weight: 51
+    region: content
+    label: inline
+    settings:
+      link: 0
+    third_party_settings: {  }
+  field_discount:
+    label: hidden
+    weight: 5
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_fast:
+    label: hidden
+    weight: 4
+    type: boolean
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: hidden
+    weight: 1
+    type: colorbox
+    settings:
+      colorbox_node_style: 800x547
+      colorbox_node_style_first: ''
+      colorbox_image_style: origin_size_watermark
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings: {  }
+    region: content
+  field_manager:
+    label: hidden
+    weight: 45
+    type: entity_reference_entity_view
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_material_build:
+    label: inline
+    weight: 59
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_new_or_secondary:
+    label: hidden
+    weight: 60
+    type: entity_reference_label
+    settings:
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_number_of_storeys:
+    label: inline
+    weight: 58
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_object_id:
+    label: inline
+    weight: 46
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_object_type:
+    label: inline
+    weight: 47
+    type: entity_reference_label
+    settings:
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_outcity:
+    label: hidden
+    weight: 61
+    type: boolean
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    region: content
+  field_price_eur:
+    label: inline
+    weight: 49
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ' '
+    third_party_settings: {  }
+    region: content
+  field_price_uah:
+    type: bigint_item_default
+    weight: 50
+    region: content
+    label: inline
+    settings:
+      thousand_separator: ' '
+      prefix_suffix: '1'
+    third_party_settings: {  }
+  field_price_usd:
+    label: inline
+    weight: 48
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ' '
+    third_party_settings: {  }
+    region: content
+  field_rooms:
+    label: inline
+    weight: 52
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_schemes:
+    label: hidden
+    weight: 2
+    type: colorbox
+    settings:
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_image_style: ''
+      colorbox_node_style: 800x547
+      colorbox_node_style_first: ''
+    third_party_settings: {  }
+    region: content
+  field_sold:
+    label: hidden
+    weight: 6
+    type: boolean
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    region: content
+  field_storey:
+    label: inline
+    weight: 57
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_video:
+    label: hidden
+    weight: 102
+    type: youtube_video
+    settings:
+      youtube_autohide: false
+      youtube_autoplay: false
+      youtube_controls: false
+      youtube_height: ''
+      youtube_iv_load_policy: false
+      youtube_loop: false
+      youtube_size: responsive
+      youtube_width: ''
+      youtube_mute: false
+    third_party_settings: {  }
+    region: content
+  flag_liked:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment_node_abroad: true
+  field_currency: true
+  field_geolocation_data: true
+  field_is_elite: true
+  field_price: true
+  field_priority_of_show: true
+  field_rubric_aviso: true
+  langcode: true

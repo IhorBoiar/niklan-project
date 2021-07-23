@@ -1,0 +1,18 @@
+uuid: 668eca27-f972-4808-8383-98f500b68190
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.construction_progress
+id: node.construction_progress.changed
+field_name: changed
+entity_type: node
+bundle: construction_progress
+label: Изменение
+description: 'Время последнего редактирования материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

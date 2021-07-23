@@ -1,0 +1,23 @@
+uuid: 33b10b4c-ecc4-4053-b7c5-7caa24e8b478
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_area_kitchen
+    - node.type.flat
+id: node.flat.field_area_kitchen
+field_name: field_area_kitchen
+entity_type: node
+bundle: flat
+label: Кухня
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' м<sup>2</sup>'
+field_type: decimal

@@ -1,0 +1,23 @@
+uuid: baab7192-9775-4c87-91a1-d42d2a5a14e6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_construction_year
+    - node.type.house
+id: node.house.field_construction_year
+field_name: field_construction_year
+entity_type: node
+bundle: house
+label: 'Год постройки'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

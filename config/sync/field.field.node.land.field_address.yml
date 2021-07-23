@@ -1,0 +1,26 @@
+uuid: 29dd4ed0-c01f-48cc-850d-2a19b91df4cd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.land
+    - taxonomy.vocabulary.address
+id: node.land.field_address
+field_name: field_address
+entity_type: node
+bundle: land
+label: Адрес
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      address: address
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

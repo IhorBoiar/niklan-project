@@ -1,0 +1,23 @@
+uuid: 16da46a3-adbe-46c0-9704-e1db0eab28b0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_area_life
+    - node.type.rent
+id: node.rent.field_area_life
+field_name: field_area_life
+entity_type: node
+bundle: rent
+label: Жилая
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' м<sup>2</sup>'
+field_type: decimal

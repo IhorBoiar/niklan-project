@@ -1,0 +1,19 @@
+uuid: a71ee1d6-a46e-4f7c-895e-b4007724ac45
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_installment
+    - node.type.complex
+id: node.complex.field_installment
+field_name: field_installment
+entity_type: node
+bundle: complex
+label: Рассрочка
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

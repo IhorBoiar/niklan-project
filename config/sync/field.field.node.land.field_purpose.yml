@@ -1,0 +1,19 @@
+uuid: 1c1f5255-3bba-4d20-bec9-655e335f138a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_purpose
+    - node.type.land
+id: node.land.field_purpose
+field_name: field_purpose
+entity_type: node
+bundle: land
+label: 'Целевое назначение'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

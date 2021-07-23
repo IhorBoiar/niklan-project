@@ -1,0 +1,40 @@
+uuid: 3a693709-72ab-4532-b19a-1a1624a8c1c5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_schemes
+    - node.type.flat
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: node.flat.field_schemes
+field_name: field_schemes
+entity_type: node
+bundle: flat
+label: 'Техническая документация'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: schemes
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 1900x1600
+  min_resolution: ''
+  alt_field: true
+  title_field: false
+  default_image: 0
+  alt_field_required: true
+  title_field_required: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

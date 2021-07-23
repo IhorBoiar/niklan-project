@@ -1,0 +1,22 @@
+uuid: b8600f6b-1644-419a-9d21-cfa67584f7f6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mayak
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: mayak_system_main
+theme: mayak
+region: content
+weight: -14
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

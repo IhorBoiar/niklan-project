@@ -1,0 +1,22 @@
+uuid: 4c31a844-7b39-4409-bf29-cbd655b39e3e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_realty_realization
+id: comment.comment_node_realty_realization.status
+field_name: status
+entity_type: comment
+bundle: comment_node_realty_realization
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

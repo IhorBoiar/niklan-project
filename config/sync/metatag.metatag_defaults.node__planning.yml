@@ -1,0 +1,9 @@
+uuid: 4a9e3615-13e7-4355-aeaf-d714931b6e6e
+langcode: ru
+status: true
+dependencies: {  }
+id: node__planning
+label: 'Content: Планировки'
+tags:
+  description: '【 [node:title]】 в [node:field_complex] ✅ Метраж: [node:field_meterage] ✅ Агентство недвижимости Маяк - (067) 619-48-88'
+  title: '≡ [node:title] в [node:field_complex], Метраж: [node:field_meterage] 》 посмотреть планировку на сайте Агентства недвижимости Маяк'

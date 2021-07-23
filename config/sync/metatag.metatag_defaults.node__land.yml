@@ -1,0 +1,9 @@
+uuid: 625c0a99-c8ca-49a8-83eb-3b974f2874db
+langcode: ru
+status: true
+dependencies: {  }
+id: node__land
+label: 'Content: Земля'
+tags:
+  description: "【 [node:title] 】 Площадь: [node:field_area_land] ✅ Адрес: [node:field_district_street] ✅ Агентство недвижимости Маяк - (067) 619-48-88\r\n"
+  title: '≡ [node:title] 》 купить по цене [node:field_price_usd] в Киеве (ID[node:field_object_id]) | Агентство недвижимости Маяк'

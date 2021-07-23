@@ -1,0 +1,30 @@
+uuid: 54542bbd-f69b-4b20-a6d0-1fced0be44a1
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ce36e7cf-f6bd-437f-b59a-5f58e941e4e8'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_12
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:ce36e7cf-f6bd-437f-b59a-5f58e941e4e8'
+settings:
+  id: 'block_content:ce36e7cf-f6bd-437f-b59a-5f58e941e4e8'
+  label: 'СЕО текст на странице аренды'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /rent
+    negate: false

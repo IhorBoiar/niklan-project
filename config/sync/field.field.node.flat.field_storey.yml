@@ -1,0 +1,19 @@
+uuid: 264714e1-53b5-4fcc-97dc-1f1aae3add38
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_storey
+    - node.type.flat
+id: node.flat.field_storey
+field_name: field_storey
+entity_type: node
+bundle: flat
+label: Этаж
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

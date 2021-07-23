@@ -1,0 +1,23 @@
+uuid: 464fa2d2-701a-4a8a-bbe5-21251a6db3d0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_currency
+    - node.type.house
+  module:
+    - options
+id: node.house.field_currency
+field_name: field_currency
+entity_type: node
+bundle: house
+label: Валюта
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

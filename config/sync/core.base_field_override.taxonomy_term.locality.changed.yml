@@ -1,0 +1,18 @@
+uuid: 03fb9111-79ff-4f35-9435-b699b0b64f74
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.locality
+id: taxonomy_term.locality.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: locality
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

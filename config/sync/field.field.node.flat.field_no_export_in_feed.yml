@@ -1,0 +1,23 @@
+uuid: 83aca80f-7720-4323-a086-7ce07a0fa403
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_no_export_in_feed
+    - node.type.flat
+id: node.flat.field_no_export_in_feed
+field_name: field_no_export_in_feed
+entity_type: node
+bundle: flat
+label: 'Не экспортировать в фиде'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Не экспортировать в фиде'
+  off_label: ''
+field_type: boolean

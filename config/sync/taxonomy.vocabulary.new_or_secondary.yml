@@ -1,0 +1,8 @@
+uuid: 9fb314e7-ae01-4c7d-b41f-9d81a3cb5713
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Новострой или Вторичный рынок'
+vid: new_or_secondary
+description: ''
+weight: 0

@@ -1,0 +1,15 @@
+uuid: 9d6fbdbd-b70f-412b-8441-44cb40b88e5c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - flag.flag.liked
+  module:
+    - flag
+id: flag_action.liked_flag
+label: 'В избранное'
+type: node
+plugin: 'flag_action:liked_flag'
+configuration:
+  flag_id: liked
+  flag_action: flag

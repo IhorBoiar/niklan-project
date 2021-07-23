@@ -1,0 +1,19 @@
+uuid: 9362db53-ad49-426c-9e6f-7fac0ede6722
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rooms_info
+    - node.type.flat
+id: node.flat.field_rooms_info
+field_name: field_rooms_info
+entity_type: node
+bundle: flat
+label: 'Комнаты смежные или раздельные'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 99be321e-99db-4567-a0d2-80ec6b09f054
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_crm_photo_null
+    - node.type.commercial
+id: node.commercial.field_crm_photo_null
+field_name: field_crm_photo_null
+entity_type: node
+bundle: commercial
+label: 'Не брать фото из CRM'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Не брать фото из CRM'
+  off_label: ''
+field_type: boolean

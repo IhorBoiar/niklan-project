@@ -1,0 +1,23 @@
+uuid: fc7ce8f8-ec3c-4a62-8f32-2cb1f21a8248
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_id
+    - taxonomy.vocabulary.district_strret
+id: taxonomy_term.district_strret.field_id
+field_name: field_id
+entity_type: taxonomy_term
+bundle: district_strret
+label: ID
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

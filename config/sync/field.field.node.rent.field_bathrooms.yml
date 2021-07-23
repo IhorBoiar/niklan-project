@@ -1,0 +1,23 @@
+uuid: 0ec9bf7f-ddde-4011-be7f-09dbdd61ee26
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bathrooms
+    - node.type.rent
+id: node.rent.field_bathrooms
+field_name: field_bathrooms
+entity_type: node
+bundle: rent
+label: Санузлов
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

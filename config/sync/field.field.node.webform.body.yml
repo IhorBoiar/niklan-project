@@ -1,0 +1,23 @@
+uuid: 4bdc3c4f-dbb7-47d5-bd67-d1aba80c8904
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.webform
+  module:
+    - text
+id: node.webform.body
+field_name: body
+entity_type: node
+bundle: webform
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

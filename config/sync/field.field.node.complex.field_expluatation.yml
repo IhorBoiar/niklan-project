@@ -1,0 +1,26 @@
+uuid: 45165b4d-c958-4708-a5fc-a12735e9a9db
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expluatation
+    - node.type.complex
+    - taxonomy.vocabulary.expluatation_taxonomy
+id: node.complex.field_expluatation
+field_name: field_expluatation
+entity_type: node
+bundle: complex
+label: 'Ввод в эксплуатацию'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      expluatation_taxonomy: expluatation_taxonomy
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

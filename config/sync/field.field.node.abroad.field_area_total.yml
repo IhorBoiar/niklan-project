@@ -1,0 +1,23 @@
+uuid: 04df514f-4cd0-468b-9af0-4e2f694673b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_area_total
+    - node.type.abroad
+id: node.abroad.field_area_total
+field_name: field_area_total
+entity_type: node
+bundle: abroad
+label: 'Общая площадь'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ' м<sup>2</sup>'
+field_type: decimal

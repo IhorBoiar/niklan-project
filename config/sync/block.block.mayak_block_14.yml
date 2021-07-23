@@ -1,0 +1,30 @@
+uuid: 4bce100a-593d-4be6-8e0d-651430cba623
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5d78b67c-81e3-45ba-93b6-912076533b6a'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_14
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:5d78b67c-81e3-45ba-93b6-912076533b6a'
+settings:
+  id: 'block_content:5d78b67c-81e3-45ba-93b6-912076533b6a'
+  label: 'СЕО текст на новостройки'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /novostroyki
+    negate: false

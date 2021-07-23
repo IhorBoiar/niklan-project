@@ -1,0 +1,19 @@
+uuid: a42adc66-0c91-4688-95ef-315c292996cc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_storey
+    - node.type.commercial
+id: node.commercial.field_storey
+field_name: field_storey
+entity_type: node
+bundle: commercial
+label: Этаж
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

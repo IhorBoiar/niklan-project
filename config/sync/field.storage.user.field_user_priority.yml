@@ -1,0 +1,20 @@
+uuid: 39614ab9-1aaa-4291-9c47-238a984f366d
+langcode: und
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_user_priority
+field_name: field_user_priority
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

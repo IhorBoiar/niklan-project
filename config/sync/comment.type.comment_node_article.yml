@@ -1,0 +1,8 @@
+uuid: c10c84c6-4b36-4608-9cba-7951a83d935b
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_article
+label: 'Статья comment'
+target_entity_type_id: node
+description: null

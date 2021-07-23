@@ -1,0 +1,8 @@
+uuid: 8e7c19f6-8c70-40cb-bf97-799e7d0ded66
+langcode: ru
+status: true
+dependencies: {  }
+name: Паркинг
+vid: parking_taxonmy
+description: 'Выбор типа паркинга для ЖК'
+weight: 0

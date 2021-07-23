@@ -1,0 +1,23 @@
+uuid: 33c924ec-9c17-4838-8bf0-bb180b9ad23f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_eur
+    - node.type.complex
+id: node.complex.field_price_eur
+field_name: field_price_eur
+entity_type: node
+bundle: complex
+label: Цена
+description: Евро
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: 'от '
+  suffix: ' €/м²'
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: b3dc76e2-1e2b-4fc2-85c4-424928c3b0e8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.flat
+    - taxonomy.vocabulary.address
+id: node.flat.field_address
+field_name: field_address
+entity_type: node
+bundle: flat
+label: Адрес
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      address: address
+    sort:
+      field: _none
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

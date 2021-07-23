@@ -1,0 +1,18 @@
+uuid: 41159b26-4498-494b-806b-787a9d2a973c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.planning
+id: node.planning.title
+field_name: title
+entity_type: node
+bundle: planning
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

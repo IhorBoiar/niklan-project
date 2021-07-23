@@ -1,0 +1,25 @@
+uuid: e1d90583-8afd-4f05-ba1a-c52eb3a39d79
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy_description
+  module:
+    - views
+  theme:
+    - mayak
+id: block_views_taxonomy_description_block
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'views_block:taxonomy_description-block_1'
+settings:
+  id: 'views_block:taxonomy_description-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

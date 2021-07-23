@@ -1,0 +1,8 @@
+uuid: 838c2719-8b57-4726-b77e-d36ad47491ea
+langcode: ru
+status: true
+dependencies: {  }
+id: comment_node_vacancy
+label: 'Вакансия comment'
+target_entity_type_id: node
+description: null

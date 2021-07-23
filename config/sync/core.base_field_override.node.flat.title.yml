@@ -1,0 +1,18 @@
+uuid: 1e159d0d-635f-4136-927c-235c9182d666
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.flat
+id: node.flat.title
+field_name: title
+entity_type: node
+bundle: flat
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 570fdabe-a543-447d-995b-760bb63e38c7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fast
+    - node.type.land
+id: node.land.field_fast
+field_name: field_fast
+entity_type: node
+bundle: land
+label: Срочно
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Срочно
+  off_label: ''
+field_type: boolean

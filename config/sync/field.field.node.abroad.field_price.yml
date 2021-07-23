@@ -1,0 +1,23 @@
+uuid: abe17135-f97d-4c33-a76a-d31953c38efa
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.abroad
+id: node.abroad.field_price
+field_name: field_price
+entity_type: node
+bundle: abroad
+label: Цена
+description: '<strong>Главное поле цены.</strong> Которое рассчитывает все цены во всех валютах.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

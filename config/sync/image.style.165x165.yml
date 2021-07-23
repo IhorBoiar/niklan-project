@@ -1,0 +1,15 @@
+uuid: 4820d06b-bd90-488e-ab41-cfc3ef1dd5c0
+langcode: ru
+status: true
+dependencies: {  }
+name: 165x165
+label: 165x165
+effects:
+  c7e62298-2e70-4f9f-83ad-e26003946722:
+    uuid: c7e62298-2e70-4f9f-83ad-e26003946722
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 165
+      height: 165
+      anchor: center-center

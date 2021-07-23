@@ -1,0 +1,18 @@
+uuid: 3aced39b-47e2-4479-8312-4c0c7a479727
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.house
+id: node.house.created
+field_name: created
+entity_type: node
+bundle: house
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

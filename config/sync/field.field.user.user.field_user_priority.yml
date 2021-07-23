@@ -1,0 +1,26 @@
+uuid: a5583b3a-f33b-4391-80a6-95b4c9a3c744
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_priority
+  module:
+    - user
+id: user.user.field_user_priority
+field_name: field_user_priority
+entity_type: user
+bundle: user
+label: 'Приоритет пользователя'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 999
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

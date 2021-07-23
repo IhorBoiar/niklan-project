@@ -1,0 +1,35 @@
+uuid: c2119788-436c-4beb-af2c-fe97d79669e1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vacancy.body
+    - field.field.node.vacancy.comment_node_vacancy
+    - field.field.node.vacancy.field_metatag
+    - node.type.vacancy
+  module:
+    - text
+    - user
+id: node.vacancy.teaser
+targetEntityType: node
+bundle: vacancy
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_vacancy: true
+  field_metatag: true
+  langcode: true

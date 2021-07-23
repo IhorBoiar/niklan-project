@@ -1,0 +1,21 @@
+uuid: cdf19091-e30e-4ae0-a072-95303971e525
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extra
+    - node.type.rent
+  module:
+    - text
+id: node.rent.field_extra
+field_name: field_extra
+entity_type: node
+bundle: rent
+label: 'Дополнительные данные'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

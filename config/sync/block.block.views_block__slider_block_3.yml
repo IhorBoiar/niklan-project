@@ -1,0 +1,29 @@
+uuid: bf2a6418-856b-4bc6-85dd-c59ae2804087
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.slider
+  module:
+    - system
+    - views
+  theme:
+    - mayak
+id: views_block__slider_block_3
+theme: mayak
+region: slider
+weight: -18
+provider: null
+plugin: 'views_block:slider-block_3'
+settings:
+  id: 'views_block:slider-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /novostroyki
+    negate: false

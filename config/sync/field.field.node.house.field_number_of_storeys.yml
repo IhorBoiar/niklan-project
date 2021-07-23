@@ -1,0 +1,23 @@
+uuid: d59f2c35-2ae5-422d-abb2-7ad67d193500
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_storeys
+    - node.type.house
+id: node.house.field_number_of_storeys
+field_name: field_number_of_storeys
+entity_type: node
+bundle: house
+label: Этажность
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

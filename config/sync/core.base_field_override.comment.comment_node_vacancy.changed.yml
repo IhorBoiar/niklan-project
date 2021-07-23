@@ -1,0 +1,18 @@
+uuid: 21f1c897-fc56-4c49-9e72-3d4e8b1729cc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_vacancy
+id: comment.comment_node_vacancy.changed
+field_name: changed
+entity_type: comment
+bundle: comment_node_vacancy
+label: Изменение
+description: 'Время последнего редактирования комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

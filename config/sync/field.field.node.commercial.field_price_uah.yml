@@ -1,0 +1,25 @@
+uuid: 7d827269-3a8f-41d9-8096-b3a2db533b2b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_uah
+    - node.type.commercial
+  module:
+    - bigint
+id: node.commercial.field_price_uah
+field_name: field_price_uah
+entity_type: node
+bundle: commercial
+label: Цена
+description: Гривны
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' ₴'
+field_type: bigint

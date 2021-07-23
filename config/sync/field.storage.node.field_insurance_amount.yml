@@ -1,0 +1,21 @@
+uuid: eb03c442-8754-431c-8f90-7359e30990be
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_insurance_amount
+field_name: field_insurance_amount
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

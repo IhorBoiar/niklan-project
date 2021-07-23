@@ -1,0 +1,28 @@
+uuid: 758c51cf-7a33-425d-8f7f-214c4fc18d1e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_house
+    - field.field.comment.comment_node_house.comment_body
+  module:
+    - text
+id: comment.comment_node_house.default
+targetEntityType: comment
+bundle: comment_node_house
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

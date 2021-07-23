@@ -1,0 +1,9 @@
+uuid: f60255a7-2351-4b9c-82d5-6fcebef7a8ee
+langcode: ru
+status: true
+dependencies: {  }
+id: node__realty_realization
+label: 'Content: Заявка на реализацию недвижимости'
+tags:
+  description: '【[node:title]】Агентство недвижимости Маяк ⭐ Наши услуги - Покупка, продажа, аренда: ✅ Квартиры ✅ Дома ✅ Земельные участки ✅ Коммерческая недвижимость'
+  title: '≡ [node:title] 》Агентство недвижимости Маяк в г. Киев'

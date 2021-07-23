@@ -1,0 +1,22 @@
+uuid: 5c7dba88-11cf-428c-bb5f-664ce4bbaa61
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.construction_progress
+id: node.construction_progress.promote
+field_name: promote
+entity_type: node
+bundle: construction_progress
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

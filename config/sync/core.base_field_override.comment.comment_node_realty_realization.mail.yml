@@ -1,0 +1,18 @@
+uuid: ba6e669b-7886-4963-af04-229954924200
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_realty_realization
+id: comment.comment_node_realty_realization.mail
+field_name: mail
+entity_type: comment
+bundle: comment_node_realty_realization
+label: Email
+description: 'Адрес электронной почты автора комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

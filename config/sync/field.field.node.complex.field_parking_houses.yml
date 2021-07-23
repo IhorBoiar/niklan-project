@@ -1,0 +1,26 @@
+uuid: a9d0fc9c-c175-46e7-a473-c119cb6f71b2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parking_houses
+    - node.type.complex
+    - taxonomy.vocabulary.parking_taxonmy
+id: node.complex.field_parking_houses
+field_name: field_parking_houses
+entity_type: node
+bundle: complex
+label: Паркинг
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      parking_taxonmy: parking_taxonmy
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

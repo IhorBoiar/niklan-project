@@ -1,0 +1,18 @@
+uuid: 79860303-f37c-47c4-b4d7-346a6d0f3f10
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.rent
+id: node.rent.title
+field_name: title
+entity_type: node
+bundle: rent
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

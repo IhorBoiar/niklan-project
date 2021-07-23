@@ -1,0 +1,19 @@
+uuid: 84f00f66-b40a-498a-aca8-a303876d86d6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_storey
+    - node.type.abroad
+id: node.abroad.field_storey
+field_name: field_storey
+entity_type: node
+bundle: abroad
+label: Этаж
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: c0d33be4-c747-408c-a490-468adc9aeff3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rubric_aviso
+    - node.type.land
+id: node.land.field_rubric_aviso
+field_name: field_rubric_aviso
+entity_type: node
+bundle: land
+label: 'Рубрика aviso'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

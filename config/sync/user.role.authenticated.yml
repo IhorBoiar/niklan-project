@@ -1,0 +1,20 @@
+uuid: 1ac18976-943d-4b20-a121-1d17b54eb89d
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'авторизованный пользователь'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'flag liked'
+  - 'search content'
+  - 'unflag liked'
+  - 'use Search Autocomplete'
+  - 'use search autocomplete'
+  - 'use text format filtered_html'
+  - 'view post access counter'

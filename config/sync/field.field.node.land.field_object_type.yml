@@ -1,0 +1,26 @@
+uuid: 989af78c-9d16-4e82-b934-84569a353ff5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_object_type
+    - node.type.land
+    - taxonomy.vocabulary.object_type
+id: node.land.field_object_type
+field_name: field_object_type
+entity_type: node
+bundle: land
+label: 'Тип объекта'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      object_type: object_type
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

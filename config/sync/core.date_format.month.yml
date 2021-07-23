@@ -1,0 +1,8 @@
+uuid: 599ba0d2-cfa6-4970-b9e0-bc9e88e01056
+langcode: ru
+status: true
+dependencies: {  }
+id: month
+label: Месяц
+locked: false
+pattern: F

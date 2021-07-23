@@ -1,0 +1,19 @@
+uuid: 13da6f3d-4ac4-4db4-b796-1afb7986cdc5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_water
+    - node.type.commercial
+id: node.commercial.field_water
+field_name: field_water
+entity_type: node
+bundle: commercial
+label: Вода
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

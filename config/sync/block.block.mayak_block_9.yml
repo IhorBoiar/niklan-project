@@ -1,0 +1,30 @@
+uuid: 6a832688-19f6-44c3-94d9-fd8f7f77ea9f
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6286b00d-db80-49c1-b8b0-0b8a72ffef45'
+  module:
+    - block_content
+    - system
+  theme:
+    - mayak
+id: mayak_block_9
+theme: mayak
+region: seo_text
+weight: 0
+provider: null
+plugin: 'block_content:6286b00d-db80-49c1-b8b0-0b8a72ffef45'
+settings:
+  id: 'block_content:6286b00d-db80-49c1-b8b0-0b8a72ffef45'
+  label: 'СЕО текст на странице домов'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /houses
+    negate: false

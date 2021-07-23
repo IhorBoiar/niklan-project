@@ -1,0 +1,19 @@
+uuid: 57da8e95-e7b6-4d36-9135-a5f6a5dda574
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_overlapping
+    - node.type.house
+id: node.house.field_overlapping
+field_name: field_overlapping
+entity_type: node
+bundle: house
+label: Перекрытия
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

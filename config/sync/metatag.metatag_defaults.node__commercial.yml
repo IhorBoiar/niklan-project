@@ -1,0 +1,9 @@
+uuid: 46d2a997-16e7-4534-8624-3036d6e9fabd
+langcode: ru
+status: true
+dependencies: {  }
+id: node__commercial
+label: 'Content: Коммерческая'
+tags:
+  description: '【 [node:title] 】 Площадь: [node:field_area_total] ✅ Адрес: ул. [node:field_address] ✅ Этаж/Этажность: [node:field_storey]/[node:field_number_of_storeys] ✅ Агентство недвижимости Маяк - (067) 619-48-88'
+  title: '≡ [node:title] 》 купить по цене [node:field_price_usd] в Киеве (ID[node:field_object_id]) | Агентство недвижимости Маяк'

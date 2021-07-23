@@ -1,0 +1,18 @@
+uuid: 9bd5cf48-0872-444e-937b-cd5e190ac242
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_page
+id: comment.comment_node_page.homepage
+field_name: homepage
+entity_type: comment
+bundle: comment_node_page
+label: 'Домашняя страница'
+description: 'Домашняя страница автора комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

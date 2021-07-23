@@ -1,0 +1,18 @@
+uuid: 996b2bec-5d99-4daf-ab3d-972defb61c63
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

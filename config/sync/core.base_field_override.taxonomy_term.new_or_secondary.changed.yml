@@ -1,0 +1,18 @@
+uuid: 5c71a423-9ccf-44da-aa43-342fc4f5c391
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.new_or_secondary
+id: taxonomy_term.new_or_secondary.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: new_or_secondary
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

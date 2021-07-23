@@ -1,0 +1,23 @@
+uuid: 84b1b309-b7e9-4dd9-9c60-a54a515c39c1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sold
+    - node.type.abroad
+id: node.abroad.field_sold
+field_name: field_sold
+entity_type: node
+bundle: abroad
+label: 'Объект продан'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Объект продан'
+  off_label: ''
+field_type: boolean

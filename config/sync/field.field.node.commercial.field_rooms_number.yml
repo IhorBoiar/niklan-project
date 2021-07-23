@@ -1,0 +1,23 @@
+uuid: d6876c9a-c895-4600-9c83-4e61123c0831
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rooms_number
+    - node.type.commercial
+id: node.commercial.field_rooms_number
+field_name: field_rooms_number
+entity_type: node
+bundle: commercial
+label: 'Количество номеров'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

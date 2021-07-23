@@ -1,0 +1,23 @@
+uuid: 2ed95455-5266-4539-b323-f16fe43ccd89
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_repair_year
+    - node.type.house
+id: node.house.field_repair_year
+field_name: field_repair_year
+entity_type: node
+bundle: house
+label: 'Год ремонта'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

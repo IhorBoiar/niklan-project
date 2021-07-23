@@ -1,0 +1,22 @@
+uuid: f2c498c3-4448-4068-9c90-247227a2e26a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.promote
+field_name: promote
+entity_type: node
+bundle: news
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

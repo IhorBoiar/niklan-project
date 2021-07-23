@@ -1,0 +1,18 @@
+uuid: fb74a2d5-b371-48ff-8f0a-13c6a6592cba
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.commercial
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.commercial
+target_entity_type_id: node
+target_bundle: commercial
+default_langcode: site_default
+language_alterable: true

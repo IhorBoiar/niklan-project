@@ -1,0 +1,26 @@
+uuid: 014e961e-1a51-400b-987e-58cc9950b6f5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_locality
+    - node.type.house
+    - taxonomy.vocabulary.locality
+id: node.house.field_locality
+field_name: field_locality
+entity_type: node
+bundle: house
+label: Местность
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      locality: locality
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

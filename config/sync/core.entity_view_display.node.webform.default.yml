@@ -1,0 +1,45 @@
+uuid: 9132370d-a8fd-40ed-96ed-5d1069f44fb6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_webform.default
+    - field.field.node.webform.body
+    - field.field.node.webform.comment_node_webform
+    - field.field.node.webform.field_header_foto
+    - field.field.node.webform.field_metatag
+    - node.type.webform
+  module:
+    - comment
+    - text
+    - user
+id: node.webform.default
+targetEntityType: node
+bundle: webform
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_webform:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_header_foto: true
+  field_metatag: true
+  langcode: true

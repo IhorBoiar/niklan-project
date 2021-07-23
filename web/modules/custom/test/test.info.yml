@@ -1,0 +1,4 @@
+name: Test
+description: My custom module in Drupal
+type: module
+core: 9.x

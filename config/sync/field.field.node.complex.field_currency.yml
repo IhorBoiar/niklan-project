@@ -1,0 +1,21 @@
+uuid: 9d884d9c-f208-49f5-af17-c41c62c94a21
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_currency
+    - node.type.complex
+  module:
+    - options
+id: node.complex.field_currency
+field_name: field_currency
+entity_type: node
+bundle: complex
+label: Валюта
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

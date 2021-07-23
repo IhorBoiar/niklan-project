@@ -1,0 +1,23 @@
+uuid: b0c84dc0-8f6c-4fb4-b431-e6006a501577
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_elevators
+    - node.type.complex
+id: node.complex.field_number_of_elevators
+field_name: field_number_of_elevators
+entity_type: node
+bundle: complex
+label: 'Количество лифтов'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

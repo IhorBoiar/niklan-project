@@ -1,0 +1,18 @@
+uuid: e59b8710-3945-4c25-a02e-c93799050bfd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.house
+id: node.house.title
+field_name: title
+entity_type: node
+bundle: house
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

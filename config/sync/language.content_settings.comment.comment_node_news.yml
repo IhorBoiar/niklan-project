@@ -1,0 +1,18 @@
+uuid: 45ef9587-d2d8-4c54-b7a8-d6c775fd8ab2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_news
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: comment.comment_node_news
+target_entity_type_id: comment
+target_bundle: comment_node_news
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: a1b485df-77c0-4e08-a391-7b3be7be4787
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.rent
+  module:
+    - youtube
+id: node.rent.field_video
+field_name: field_video
+entity_type: node
+bundle: rent
+label: Видео
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

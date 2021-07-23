@@ -1,0 +1,30 @@
+uuid: 30627076-15e3-417d-91b0-d17a7519c938
+langcode: ru
+status: true
+dependencies:
+  config:
+    - webform.webform.branches_in_ukraine
+  module:
+    - system
+    - webform
+  theme:
+    - mayak
+id: branches_in_ukraine
+theme: mayak
+region: content
+weight: -13
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform (Предложения о расширении региональной структуры)'
+  provider: webform
+  label_display: '0'
+  webform_id: branches_in_ukraine
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/16929
+    negate: false

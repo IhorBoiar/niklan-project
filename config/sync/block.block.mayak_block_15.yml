@@ -1,0 +1,25 @@
+uuid: 2b12c6ed-9236-4224-8339-fdcce60262cc
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a4542ff1-5beb-409f-992d-6b72a07c73cc'
+  module:
+    - block_content
+  theme:
+    - mayak
+id: mayak_block_15
+theme: mayak
+region: footer_third
+weight: -18
+provider: null
+plugin: 'block_content:a4542ff1-5beb-409f-992d-6b72a07c73cc'
+settings:
+  id: 'block_content:a4542ff1-5beb-409f-992d-6b72a07c73cc'
+  label: 'Кнопки партнеров'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
