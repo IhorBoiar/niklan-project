@@ -1,0 +1,33 @@
+uuid: da73eae8-12ba-4294-bb98-a98107fe3e21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_youtube.field_title
+    - field.field.paragraph.gallery_youtube.field_youtube
+    - paragraphs.paragraphs_type.gallery_youtube
+  module:
+    - youtube
+id: paragraph.gallery_youtube.default
+targetEntityType: paragraph
+bundle: gallery_youtube
+mode: default
+content:
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_youtube:
+    weight: 1
+    settings:
+      placeholder_url: ''
+    third_party_settings: {  }
+    type: youtube
+    region: content
+hidden:
+  created: true
+  status: true
